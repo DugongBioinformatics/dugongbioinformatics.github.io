@@ -200,8 +200,6 @@ Access: https://store.docker.com/editions/community/docker-ce-desktop-windows
 
 Access: https://store.docker.com/editions/community/docker-ce-desktop-mac
 
-![line](http://skstroi.ru/wp-content/uploads/2016/05/foot-line.png)
-
 ## Deploy and access Dugong <a name="Deploy" /> [[menu]](#menu)
 
 The Docker project provides a public cloud called the [Docker Hub](https://hub.docker.com) for sharing the developed containers. This cloud allows access to the application in a centralized and simple way, that is, it is possible to obtain a complete Dugong environment with command lines for its implementation.
@@ -330,8 +328,6 @@ Dugong can be expanded or adapted to the most diverse needs in a research or tea
 [![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugongGUI-CirComPara/master/.misc/Screenshot%202017-05-09%20at%2000.57.47.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
 
 See more: [DugongGUI CirComPara](https://github.com/fabianomenegidio/dugongGUI-CirComPara)
-
-![line](http://skstroi.ru/wp-content/uploads/2016/05/foot-line.png)
 
 ![Docker](https://static1.squarespace.com/static/513914cde4b0f86e34bbb954/t/58409793bebafb1c4cfe75e3/1480628120385/DockerBanner.png)
 
