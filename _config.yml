@@ -1,2 +1,9 @@
-name: Dugong
+repository: DugongBioinformatics/dugong
 theme: jekyll-theme-architect
+name: DUGONG
+title: DUGONG
+description: a Scientific Linux Container
+author: Menegidio, F.B.
+author_email: fabiano.menegidio@biology.bio.br
+
+show_downloads: true
