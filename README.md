@@ -121,6 +121,8 @@ Sources such as GitHub, for example, can be used to install new tools simply and
 
 [![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-09%20at%2001.33.06.png)](https://www.youtube.com/watch?v=FU944qartYE)
 
+![line](http://skstroi.ru/wp-content/uploads/2016/05/foot-line.png)
+
 ## Install Docker <a name="Install-Docker" /> [[menu]](#menu)
 
 ### Ubuntu: <a name="Ubuntu" /> [[menu]](#menu)
@@ -198,6 +200,8 @@ Access: https://store.docker.com/editions/community/docker-ce-desktop-windows
 
 Access: https://store.docker.com/editions/community/docker-ce-desktop-mac
 
+![line](http://skstroi.ru/wp-content/uploads/2016/05/foot-line.png)
+
 ## Deploy and access Dugong <a name="Deploy" /> [[menu]](#menu)
 
 The Docker project provides a public cloud called the [Docker Hub](https://hub.docker.com) for sharing the developed containers. This cloud allows access to the application in a centralized and simple way, that is, it is possible to obtain a complete Dugong environment with command lines for its implementation.
@@ -222,21 +226,21 @@ The default installation version of Dugong is DugongGUI with Xfce4. To change th
 Install DugongGUI Xfce4:
 
 ```
-docker run -d -p 5901:5901 -p 6901:6901 --name DugongGUI -h DugongGUI -v $HOME/dugong/:/data/ \
+docker run -d -p 5901:5901 -p 6901:6901 --name DugongGUI -h DugongGUI -v $HOME/dugongxfce/:/data/ \
 --privileged dugong/dugong:xfce
 ```
 
 Install DugongGUI iceWM:
 
 ```
-docker run -d -p 5901:5901 -p 6901:6901 --name DugongGUI -h DugongGUI -v $HOME/dugong/:/data/ \
+docker run -d -p 5901:5901 -p 6901:6901 --name DugongGUI -h DugongGUI -v $HOME/dugongicewm/:/data/ \
 --privileged dugong/dugong:icewm
 ```
 
 Install DugongCMD:
 
 ```
-docker run -d -p 3000:3000 --name DugongCMD -h DugongCMD -v $HOME/dugong/:/data/ \
+docker run -d -p 3000:3000 --name DugongCMD -h DugongCMD -v $HOME/dugongcmd/:/data/ \
 --privileged dugong/dugong:cmd
 ```
 
@@ -313,7 +317,7 @@ It is strongly recommended that your system have 8 gigabytes or more of memory t
 
 ## Extending or adapting the Dugong image <a name="Extending" /> [[menu]](#menu)
 
-Dugong can be expanded or adapted to the most diverse needs in a research or teaching environment. All Dugong environment configuration scripts are available in the Git Hub (https://github.com/fabianomenegidio/dugong), including Dockerfile for building your image.
+Dugong can be expanded or adapted to the most diverse needs in a research or teaching environment. All Dugong environment configuration scripts are available in the Git Hub (https://dugongbioinformatics.github.io/), including Dockerfile for building your image.
 
 ## Example of adapted tools in Dugong <a name="Example" /> [[menu]](#menu)
 
@@ -326,6 +330,8 @@ Dugong can be expanded or adapted to the most diverse needs in a research or tea
 [![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugongGUI-CirComPara/master/.misc/Screenshot%202017-05-09%20at%2000.57.47.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
 
 See more: [DugongGUI CirComPara](https://github.com/fabianomenegidio/dugongGUI-CirComPara)
+
+![line](http://skstroi.ru/wp-content/uploads/2016/05/foot-line.png)
 
 ![Docker](https://static1.squarespace.com/static/513914cde4b0f86e34bbb954/t/58409793bebafb1c4cfe75e3/1480628120385/DockerBanner.png)
 
