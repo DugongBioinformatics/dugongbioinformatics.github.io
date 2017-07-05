@@ -59,6 +59,7 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 - [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator/): is a desktop graphical user interface (GUI) that is included in Anaconda or Miniconda, and allows you to launch applications and easily manage ***conda*** and ***bioconda*** packages, environments and channels without using command-line commands.
 - [Jupyter Notebook](http://jupyter.org/): is an interactive computing environment that enables users to author notebook documents that include: - Live code - Interactive widgets - Plots - Narrative text - Equations - Images - Video. These documents provide a complete and self-contained record of a computation that can be converted to various formats and shared.  
 - [Spyder IDE](https://github.com/spyder-ide): a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features and a numerical computing environment thanks to the support of IPython (enhanced interactive Python interpreter) and popular Python libraries such as NumPy (linear algebra), SciPy (signal and image processing) or matplotlib (interactive 2D/3D plotting).
+- [ASCIInema](https://asciinema.org/): is a free and open source solution for recording terminal sessions and sharing them on the web.
 - [Google Chrome](https://www.google.com/chrome/browser/): a browser that combines a minimalist design with sophisticated technology to make the web faster, safer and easier.
 - [MEGASync](https://mega.nz/#sync): a desktop client for MEGA Service Cloud providing easy automatic synchronization of files and folders between our computer and the cloud drive with 50Gb storage.
 - [MEGAcmd](https://mega.nz/cmd): tool that allows access through the Mega cloud command line and provides a set of powerful commands for a file manipulation.
@@ -71,8 +72,10 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 
 With a focus on fast access and availability of command line bioinformatics tools, ***DugongCMD*** has an interactive terminal developed in node.js that can be accessed directly by the browser. It also features a set of preinstalled software that allow better use of the operating system, especially:
 
-- [MEGAcmd](https://mega.nz/cmd): tool that allows access through the Mega cloud command line and provides a set of powerful commands for a file manipulation.
+- [Jupyter Notebook](http://jupyter.org/): is an interactive computing environment that enables users to author notebook documents that include: - Live code - Interactive widgets - Plots - Narrative text - Equations - Images - Video. These documents provide a complete and self-contained record of a computation that can be converted to various formats and shared.
+- [ASCIInema](https://asciinema.org/): is a free and open source solution for recording terminal sessions and sharing them on the web.
 - [Showterm](https://showterm.io/): is an open source terminal record and upload application that lets you easy to record how-to in your terminal. It will record all your terminal activity in text-base and upload to showterm.io as a video and then generates a link for you to share with your team-mates or embed it in your website as an iframe.
+- [MEGAcmd](https://mega.nz/cmd): tool that allows access through the Mega cloud command line and provides a set of powerful commands for a file manipulation.
 
 SSH access to DugongCMD can be performed as follows:
 
