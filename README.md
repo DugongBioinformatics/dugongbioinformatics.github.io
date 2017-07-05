@@ -18,7 +18,8 @@ Dugong requires a minimum of knowledge about Docker, Linux or computing for its 
 
 - [Dugong flavours](#Dugong-flavours)
   - [DugongGUI](#DugongGUI)
-  - [DugongCMD](#DugongCMD)  
+  - [DugongCMD](#DugongCMD)
+  - [DugongCLEAN](#DugongClean)
 - [Bioinformatics Software](#Bioinformatics-Software)
     - [Dugong installation tools](#Dugong-installation-tools)
 - [Install Docker](#Install-Docker)
@@ -39,7 +40,7 @@ Dugong requires a minimum of knowledge about Docker, Linux or computing for its 
 
 ## Dugong flavours <a name="Dugong-flavours" /> [[menu]](#menu)
 
-Today, the Dugong operating system is available in two versions: ***DugongGUI*** and ***DugongCMD***.
+Today, the Dugong operating system is available in three versions: ***DugongGUI***, ***DugongCMD*** and ***DugongCLEAN***.
 
 ### DugongGUI <a name="DugongGUI" /> [[menu]](#menu)
 
@@ -55,8 +56,9 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 
 ***DugongGUI*** also has a set of preinstalled software packages that allow a better use of the operating system, especially:
 
+- [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator/): is a desktop graphical user interface (GUI) that is included in Conda and BioConda, and allows you to launch applications and easily manage conda packages, environments and channels without using command-line commands.
+- [Spyder IDE](https://github.com/spyder-ide): a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features and a numerical computing environment thanks to the support of IPython (enhanced interactive Python interpreter) and popular Python libraries such as NumPy (linear algebra), SciPy (signal and image processing) or matplotlib (interactive 2D/3D plotting).
 - [Google Chrome](https://www.google.com/chrome/browser/): a browser that combines a minimalist design with sophisticated technology to make the web faster, safer and easier.
-- [Mozilla Firefox](https://www.mozilla.org/en/firefox): a free and open source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation.
 - [MEGASync](https://mega.nz/#sync): a desktop client for MEGA Service Cloud providing easy automatic synchronization of files and folders between our computer and the cloud drive with 50Gb storage.
 - [MEGAcmd](https://mega.nz/cmd): tool that allows access through the Mega cloud command line and provides a set of powerful commands for a file manipulation.
 
