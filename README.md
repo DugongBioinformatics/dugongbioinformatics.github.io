@@ -33,7 +33,8 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
     - [Script and ScriptReplay Commands](#ScriptReplay)
 - [Deploy Dugong Image](#Deploy)
     - [Deploy DugongGUI](#DeployDugongGUI)
-    - [Deploy DugongCMD](#DeployDugongCMD)    
+    - [Deploy DugongCMD](#DeployDugongCMD)
+- [Deploy Dugong Image by graphical interface](#DeployGUI)
 - [Dugong Virtual Box](#Dugong-Virtual-Box)
 - [Extending or adapting the Dugong image](#Extending)
 - [Example of adapted tools in Dugong](#Example)
@@ -292,7 +293,7 @@ docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Deploy Dugong by graphical interface  <a name="DeployGUI" /> [[menu]](#menu)
+## Deploy Dugong Image by graphical interface  <a name="DeployGUI"/> [[menu]](#menu)
 
 [Kitematic](https://github.com/docker/kitematic) is a simple application for managing Docker containers on Mac and Windows, allowing the deploy of Docker images and the installation and administration of containers. Dugong can be installed through [Kitematic](https://github.com/docker/kitematic) or other softwares with the same function, such as [Data Pulley](http://datapulley.com/).
 
@@ -303,13 +304,6 @@ Kitematic:
 Data Pulley
 
 ![Data Pulley](http://35.184.241.64/images/Pull.png)
-
-Other Graphical Interfaces to Docker include:
-
-[Panamax.io](http://panamax.io/): is a browser rendered graphical environment for pulling together image compositions, although it currently needs to be started from the command line.
-
-![Panamax.io](http://panamax.io/assets/images/preview_images/marketing_screen_01_big.png)
-
 
 For more details, visit the projects page.
 
