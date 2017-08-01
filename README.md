@@ -180,6 +180,11 @@ The installation of bioinformatics packages in Dugong is not restricted to the m
 
 ## Reproducibility and Replicability <a name="Reproducibility"/> [[menu]](#menu)
 
+Among the main objectives of the Dugong project is the provision of a complete work platform for the end user that allows the reproducibility and replicability of their research in the most diverse computational environments.
+
+With this in mind, we implemented in all versions of Dugong the widely used Jupyter Notebook, among other utilities focused on the reproducibility of analyzes composed by complex computational environments and pipelines with different execution dependencies.
+
+### Jupyter Notebook <a name="Jupyter"/> [[menu]](#menu)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
