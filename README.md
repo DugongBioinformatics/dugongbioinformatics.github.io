@@ -119,7 +119,7 @@ Browse packages in the bioconda channel: [Available packages](https://bioconda.g
 
 For more details on the Conda Project, visit its [documentation](https://conda.io/docs/building/recipe.html#conda-recipe-files-overview).
 
-### Installation in Dugong using BioConda:
+#### EXAMPLE: Installation in Dugong using BioConda:
 
 - Installing the bioinformatics tools: BWA and TOPHAT in DugongCMD. Installation performed through BioConda and operating test:
 
