@@ -185,7 +185,7 @@ With this in mind, we implemented in all versions of [Dugong](https://hub.docker
 
 ### Jupyter Notebook <a name="Jupyter"/> [[menu]](#menu)
 
-Jupyter Notebook extends the console-based approach to interactive computing in a qualitatively new direction, providing a web-based application suitable for capturing the whole computation analysis: developing, documenting, and executing code, as well as communicating the results. The Jupyter notebook combines two components:
+[Jupyter Notebook](http://jupyter.org/) extends the console-based approach to interactive computing in a qualitatively new direction, providing a web-based application suitable for capturing the whole computation analysis: developing, documenting, and executing code, as well as communicating the results. The [Jupyter Notebook](http://jupyter.org/) combines two components:
 
 - A web application: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
 
@@ -199,7 +199,9 @@ Main features of the web application:
 - In-browser editing for rich text using the Markdown markup language, which can provide commentary for the code, is not limited to plain text.
 - The ability to easily include mathematical notation within markdown cells using LaTeX, and rendered natively by MathJax.
 
+Below is a preview of the [Jupyter Notebook](http://jupyter.org/) interface:
 
+![Jupyter Notebook](https://www.dataquest.io/blog/images/jupyter/interface-screenshot.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
