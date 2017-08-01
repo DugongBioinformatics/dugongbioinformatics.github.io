@@ -21,7 +21,6 @@ The Dugong project is publicly committed to the principles of open source softwa
 - [Dugong flavours](#Dugong-flavours)
   - [DugongGUI](#DugongGUI)
   - [DugongCMD](#DugongCMD)
-  - [DugongCLEAN](#DugongClean)
 - [Bioinformatics Software](#Bioinformatics-Software)
     - [Dugong installation tools](#Dugong-installation-tools)
 - [Install Docker](#Install-Docker)
@@ -42,7 +41,7 @@ The Dugong project is publicly committed to the principles of open source softwa
 
 ## Dugong flavours <a name="Dugong-flavours" /> [[menu]](#menu)
 
-Today, the Dugong operating system is available in three versions: ***DugongGUI***, ***DugongCMD*** and ***DugongCLEAN***.
+Today, the Dugong operating system is available in two versions: ***DugongGUI*** and ***DugongCMD***.
 
 ### DugongGUI <a name="DugongGUI" /> [[menu]](#menu)
 
