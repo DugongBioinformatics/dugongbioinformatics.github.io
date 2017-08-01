@@ -19,7 +19,7 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 ## MENU <a name="menu" />
 
 - [Dugong flavours](#Dugong-flavours)
-  - [DugongGUI](#DugongGUI)
+  - [All versions of Dugong](#All versions of Dugong)
   - [DugongCMD](#DugongCMD)
 - [Bioinformatics Software](#Bioinformatics-Software)
     - [Dugong installation tools](#Dugong-installation-tools)
@@ -47,7 +47,9 @@ Today, the Dugong operating system is available in two versions: [***DugongGUI**
 
 Already the [***DugongCMD***](https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/README.md#DugongCMD) version is focused on the fast access and availability of bioinformatics tools through an iterative web interface developed in [node.js](https://en.wikipedia.org/wiki/Node.js), which can be accessed directly by the browser. This version does not have a GUI installed by default, but allows [X11](https://en.wikipedia.org/wiki/X_Window_System) forwarding to the host machine.
 
-### DugongGUI <a name="DugongGUI" /> [[menu]](#menu)
+Below we describe the tools available in each version of Dugong:
+
+### All versions of Dugong <a name="All versions of Dugong" /> [[menu]](#menu)
 
 Our great differential for applications in bioinformatics and computational biology. Based on Ubuntu 16.04, the ***DugongGUI*** image has two graphical interface (GUI) options: ***Xfce4*** or ***IceWM*** (beta).
 
