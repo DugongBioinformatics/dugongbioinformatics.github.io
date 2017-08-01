@@ -50,9 +50,7 @@ Already the [***DugongCMD***](https://github.com/DugongBioinformatics/dugongbioi
 
 Below we describe the tools available in each version of Dugong:
 
-### All versions of Dugong <a name="AllDugong" /> [[menu]](#menu)
-
-Our great differential for applications in bioinformatics and computational biology. Based on Ubuntu 16.04, the ***DugongGUI*** image has two graphical interface (GUI) options: ***Xfce4*** or ***IceWM*** (beta).
+### DugongGUI Version <a name="DugongGUI" /> [[menu]](#menu)
 
 - [Xfce4](https://www.xfce.org/) (translated as four individual letters) is a free and open source desktop environment for Unix platforms such as Linux, Solaris and BSD. As a fast, easy-to-use open-source workbench, it was selected as the official GUI for the Dugong project.
 - [IceWM](http://www.icewm.org/) is a window manager designed for lightweight simplicity and ease of use, but not focused on customizability. It looks similar to Windows 95. In beta testing at Dugong.
@@ -64,8 +62,8 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 
 ***DugongGUI*** also has a set of preinstalled software packages that allow a better use of the operating system, especially:
 
-- [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator/): is a desktop graphical user interface (GUI) that is included in Anaconda or Miniconda, and allows you to launch applications and easily manage ***conda*** and ***bioconda*** packages, environments and channels without using command-line commands.
-- [Jupyter Notebook](http://jupyter.org/): is an interactive computing environment that enables users to author notebook documents that include: - Live code - Interactive widgets - Plots - Narrative text - Equations - Images - Video. These documents provide a complete and self-contained record of a computation that can be converted to various formats and shared.  
+- [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator/): is a desktop graphical user interface (GUI) that is included in Anaconda or Miniconda, and allows you to launch applications and easily manage ***Conda*** and ***Bioconda*** packages, environments and channels without using command-line commands.
+- [Jupyter Notebook](http://jupyter.org/): is an interactive computing environment that enables users to author notebook documents that include: - Live code - Interactive widgets - Plots - Narrative text - Equations - Images - Video. These documents provide a complete and self-contained record of a computation that can be converted to various formats and shared. 
 - [Spyder IDE](https://github.com/spyder-ide): a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features and a numerical computing environment thanks to the support of IPython (enhanced interactive Python interpreter) and popular Python libraries such as NumPy (linear algebra), SciPy (signal and image processing) or matplotlib (interactive 2D/3D plotting).
 - [ASCIInema](https://asciinema.org/): is a free and open source solution for recording terminal sessions and sharing them on the web.
 - [Google Chrome](https://www.google.com/chrome/browser/): a browser that combines a minimalist design with sophisticated technology to make the web faster, safer and easier.
@@ -76,9 +74,7 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 
 ### DugongCMD <a name="DugongCMD" /> [[menu]](#menu)
 
-***DugongCMD*** is a version of the Dugong image that works exclusively in the command line environment, without a graphical interface.
-
-With a focus on fast access and availability of command line bioinformatics tools, ***DugongCMD*** has an interactive terminal developed in node.js that can be accessed directly by the browser. It also features a set of preinstalled software that allow better use of the operating system, especially:
+It also features a set of preinstalled software that allow better use of the operating system, especially:
 
 - [Jupyter Notebook](http://jupyter.org/): is an interactive computing environment that enables users to author notebook documents that include: - Live code - Interactive widgets - Plots - Narrative text - Equations - Images - Video. These documents provide a complete and self-contained record of a computation that can be converted to various formats and shared.
 - [ASCIInema](https://asciinema.org/): is a free and open source solution for recording terminal sessions and sharing them on the web.
