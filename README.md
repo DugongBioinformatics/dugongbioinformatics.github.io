@@ -27,7 +27,6 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
     - [Conda and BioConda](#BioConda)
     - [LinuxBrew](#LinuxBrew)
     - [DEB Repository](#DEB)
-    - [Dugong installation tools](#Dugong-installation-tools)
 - [Install Docker](#Install-Docker)
   - [Ubuntu](#Ubuntu)
   - [Fedora](#Fedora) 
@@ -120,6 +119,12 @@ Browse packages in the bioconda channel: [Available packages](https://bioconda.g
 
 For more details on the Conda Project, visit its [documentation](https://conda.io/docs/building/recipe.html#conda-recipe-files-overview).
 
+### Installation in Dugong using BioConda:
+
+- Installing the bioinformatics tools: BWA and TOPHAT in DugongCMD. Installation performed through BioConda and operating test:
+
+[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-09%20at%2001.33.06.png)](https://www.youtube.com/watch?v=FU944qartYE)
+
 ### LinuBrew <a name="LinuxBrew"/> [[menu]](#menu)
 
 [Linuxbrew](http://linuxbrew.sh/) is a fork for Linux from [Homebrew](https://brew.sh/), the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. 
@@ -146,12 +151,6 @@ There are currently 2707 bioinformatics packages available in the Bioconda repos
 The installation of bioinformatics packages in Dugong is not restricted to the methods presented. An example is BaseMount, the tool for mounting your BaseSpace Sequence Hub data as a Linux file system. With it, you can navigate projects, samples, runs, and application results and interact directly with associated files, just like any other local file system.
 
 Sources such as GitHub, for example, can be used to install new tools simply and quickly.
-
-### Dugong installation tools: <a name="Dugong-installation-tools" /> [[menu]](#menu)
-
-- Installing the bioinformatics tools: BWA and TOPHAT in DugongCMD. Installation performed through BioConda and operating test:
-
-[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-09%20at%2001.33.06.png)](https://www.youtube.com/watch?v=FU944qartYE)
 
 ![line](http://skstroi.ru/wp-content/uploads/2016/05/foot-line.png)
 
