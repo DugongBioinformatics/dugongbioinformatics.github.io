@@ -116,7 +116,7 @@ For the installation of software through [***Conda***](https://conda.io) or [Bio
 conda install <software>
 ```
 
-Browse packages in the bioconda channel: [Available packages](https://bioconda.github.io/recipes.html#recipes)
+Browse packages in the BioConda channel: [Available packages](https://bioconda.github.io/recipes.html#recipes)
 
 For more details on the Conda Project, visit its [documentation](https://conda.io/docs/building/recipe.html#conda-recipe-files-overview).
 
@@ -163,6 +163,11 @@ or
 brew tap homebrew/science
 brew install <software> 
 ```
+
+Browse packages in the LinuxBrew channel: [Available packages](https://bioconda.github.io/recipes.html#recipes)
+
+For more details on the LinuxBrew Project, visit its [documentation](https://conda.io/docs/building/recipe.html#conda-recipe-files-overview).
+
 
 ### DEB Repository <a name="DEB"/> [[menu]](#menu)
 
