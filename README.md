@@ -31,8 +31,9 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 - [Reproducibility and Replicability](#Reproducibility)
     - [Jupyter Notebook](#Jupyter)
     - [Script and ScriptReplay Commands](#ScriptReplay)
-- [Deploy and access Dugong](#Deploy)
-- [Video installation](#Video-installation)
+- [Deploy Dugong Image](#Deploy)
+    - [Deploy DugongGUI](#DeployDugongGUI)
+    - [Deploy DugongCMD](#DeployDugongCMD)    
 - [Dugong Virtual Box](#Dugong-Virtual-Box)
 - [Extending or adapting the Dugong image](#Extending)
 - [Example of adapted tools in Dugong](#Example)
@@ -260,6 +261,16 @@ docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI
 --privileged dugong/dugong:icewm
 ```
 
+### EXAMPLE: Video installation DugongGUI: <a name="Video-installation" /> [[menu]](#menu)
+
+- Click to watch the installation of ***DugongGUI*** on ***Linux Ubuntu Server***:
+
+[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-08%20at%2021.49.05.png)](http://showterm.io/2920acd0725f9fe78d3e5)
+
+- Click to watch the installation of ***DugongGUI*** on ***Linux CentOS 7*** in the [CloudatCost](http://cloudatcost.com/) provider:
+
+[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-10%20at%2006.30.41.png)](http://showterm.io/b521d2099d4e440461167#fast)
+
 ### Deploy DugongCMD Image <a name="DeployDugongCMD" /> [[menu]](#menu)
 
 Install DugongCMD:
@@ -268,6 +279,17 @@ Install DugongCMD:
 docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD -v $HOME/dugongcmd/:/data/ \
 --privileged dugong/dugong:cmd
 ```
+
+### EXAMPLE: Video installation DugongCMD: <a name="Video-installation" /> [[menu]](#menu)
+
+- Click to watch the installation of ***DugongCMD*** on ***Linux Ubuntu Server***:
+
+[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-08%20at%2022.00.42.png)](http://showterm.io/65f18305c3a1dc80d7a2a)
+
+- Click to watch the installation of ***DugongCMD*** on ***Linux CentOS 7*** in the [CloudatCost](http://cloudatcost.com/) provider:
+
+[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-10%20at%2006.45.18.png)](http://showterm.io/f06861ae4a22381c148e4)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Access Dugong Container <a name="AccessDugongCMD" /> [[menu]](#menu)
@@ -295,25 +317,6 @@ For access to DugongCMD the user can use an SSH client of his choice. We also pr
 ```
 http://<IP or Host>:3000
 ```
-
-## Video installation: <a name="Video-installation" /> [[menu]](#menu)
-
-- Click to watch the installation of ***DugongGUI*** on ***Linux Ubuntu Server***:
-
-[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-08%20at%2021.49.05.png)](http://showterm.io/2920acd0725f9fe78d3e5)
-
-- Click to watch the installation of ***DugongGUI*** on ***Linux CentOS 7*** in the [CloudatCost](http://cloudatcost.com/) provider:
-
-[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-10%20at%2006.30.41.png)](http://showterm.io/b521d2099d4e440461167#fast)
-
-
-- Click to watch the installation of ***DugongCMD*** on ***Linux Ubuntu Server***:
-
-[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-08%20at%2022.00.42.png)](http://showterm.io/65f18305c3a1dc80d7a2a)
-
-- Click to watch the installation of ***DugongCMD*** on ***Linux CentOS 7*** in the [CloudatCost](http://cloudatcost.com/) provider:
-
-[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-10%20at%2006.45.18.png)](http://showterm.io/f06861ae4a22381c148e4)
 
 ## Dugong Virtual Box <a name="Dugong-Virtual-Box" /> [[menu]](#menu)
 
