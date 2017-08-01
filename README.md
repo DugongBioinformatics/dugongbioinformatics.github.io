@@ -432,7 +432,7 @@ It is strongly recommended that your system have 8 gigabytes or more of memory t
 
 ### Comparison between Dugong and virtualization services
 
-
+Name | Description | Update |
 
 
 
