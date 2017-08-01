@@ -41,7 +41,7 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 
 ## Dugong flavours <a name="Dugong-flavours" /> [[menu]](#menu)
 
-Today, the Dugong operating system is available in two versions: ***DugongGUI*** and ***DugongCMD***.
+Today, the Dugong operating system is available in two versions: [***DugongGUI***](https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/README.md#DugongGUI) and ***DugongCMD***.
 
 ### DugongGUI <a name="DugongGUI" /> [[menu]](#menu)
 
