@@ -19,7 +19,6 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 ## MENU <a name="menu" />
 
 - [Dugong flavours](#Dugong-flavours)
-  - [All versions of Dugong](#AllDugong)
   - [DugongGUI Version](#DugongGUI)
   - [DugongCMD Version](#DugongCMD)
 - [Bioinformatics Software](#Bioinformatics-Software)
@@ -52,6 +51,8 @@ Below we describe the tools available in each version of Dugong:
 
 ### DugongGUI Version <a name="DugongGUI" /> [[menu]](#menu)
 
+This is the preinstalled software suite that enables better use of DugongGUI:
+
 - [Xfce4](https://www.xfce.org/) (translated as four individual letters) is a free and open source desktop environment for Unix platforms such as Linux, Solaris and BSD. As a fast, easy-to-use open-source workbench, it was selected as the official GUI for the Dugong project.
 - [IceWM](http://www.icewm.org/) is a window manager designed for lightweight simplicity and ease of use, but not focused on customizability. It looks similar to Windows 95. In beta testing at Dugong.
 
@@ -63,7 +64,6 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 ***DugongGUI*** also has a set of preinstalled software packages that allow a better use of the operating system, especially:
 
 - [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator/): is a desktop graphical user interface (GUI) that is included in Anaconda or Miniconda, and allows you to launch applications and easily manage ***Conda*** and ***Bioconda*** packages, environments and channels without using command-line commands.
-- [Jupyter Notebook](http://jupyter.org/): is an interactive computing environment that enables users to author notebook documents that include: - Live code - Interactive widgets - Plots - Narrative text - Equations - Images - Video. These documents provide a complete and self-contained record of a computation that can be converted to various formats and shared. 
 - [Spyder IDE](https://github.com/spyder-ide): a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features and a numerical computing environment thanks to the support of IPython (enhanced interactive Python interpreter) and popular Python libraries such as NumPy (linear algebra), SciPy (signal and image processing) or matplotlib (interactive 2D/3D plotting).
 - [ASCIInema](https://asciinema.org/): is a free and open source solution for recording terminal sessions and sharing them on the web.
 - [Google Chrome](https://www.google.com/chrome/browser/): a browser that combines a minimalist design with sophisticated technology to make the web faster, safer and easier.
@@ -74,14 +74,13 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 
 ### DugongCMD <a name="DugongCMD" /> [[menu]](#menu)
 
-It also features a set of preinstalled software that allow better use of the operating system, especially:
+This is the preinstalled software suite that enables better use of DugongCMD:
 
-- [Jupyter Notebook](http://jupyter.org/): is an interactive computing environment that enables users to author notebook documents that include: - Live code - Interactive widgets - Plots - Narrative text - Equations - Images - Video. These documents provide a complete and self-contained record of a computation that can be converted to various formats and shared.
 - [ASCIInema](https://asciinema.org/): is a free and open source solution for recording terminal sessions and sharing them on the web.
 - [Showterm](https://showterm.io/): is an open source terminal record and upload application that lets you easy to record how-to in your terminal. It will record all your terminal activity in text-base and upload to showterm.io as a video and then generates a link for you to share with your team-mates or embed it in your website as an iframe.
 - [MEGAcmd](https://mega.nz/cmd): tool that allows access through the Mega cloud command line and provides a set of powerful commands for a file manipulation.
 
-SSH access to DugongCMD can be performed as follows:
+Access to DugongCMD can be done through the following option:
 
 - [tty.js](https://github.com/chjj/tty.js/): a terminal in your browser using node.js and socket.io. Based on Fabrice Bellard's vt100 for jslinux.
 
