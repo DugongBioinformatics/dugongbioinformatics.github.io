@@ -250,14 +250,14 @@ Install DugongGUI Xfce4:
 
 ```
 docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI -v $HOME/dugongxfce/:/data/ \
---privileged dugong/dugong:xfce
+--privileged dugong/dugong**:xfce**
 ```
 
 Install DugongGUI iceWM:
 
 ```
 docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI -v $HOME/dugongicewm/:/data/ \
---privileged dugong/dugong:icewm
+--privileged dugong/dugong**:icewm**
 ```
 
 ### Deploy DugongCMD Image <a name="DeployDugongCMD" /> [[menu]](#menu)
@@ -266,11 +266,11 @@ Install DugongCMD:
 
 ```
 docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD -v $HOME/dugongcmd/:/data/ \
---privileged dugong/dugong:cmd
+--privileged dugong/dugong**:cmd**
 ```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Access Dugong Container <a name="AccessDugongCMD" /> [[menu]](#menu)
-
+## Access Dugong Container <a name="AccessDugongCMD" /> [[menu]](#menu)
 
 Access to the Dugong container can be done in a variety of ways, with access through the simplest Docker console. This access will not be of great attraction to the user and should be used only in case of problems during the execution of Dugong and for the analysis of problems with the container. Through this access the user can restart Linux services, analyze system and application logs, among other functions.
 
