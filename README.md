@@ -324,7 +324,9 @@ docker exec -it Dugong /bin/bash
 
 ### Access through the SSH protocol <a name="DockerSSH"/> [[menu]](#menu)
 
-Access through the SSH protocol is also available in all versions of Dugong. The Dugong execution command includes the "-p 2222: 22" option, where we direct the SSH port of the container to port 2222 of the host. To access Dugong by SSH, from your host machine, simply execute the following command:
+Access through the SSH protocol is also available in all versions of Dugong. 
+
+The Dugong execution command includes the "-p 2222: 22" option, where we direct the SSH port of the container to port 2222 of the host. To access Dugong by SSH, from your host machine, simply execute the following command:
 
 ```
 ssh -p 2222 dugong@localhost
@@ -334,7 +336,7 @@ The **dugong** user's default password (**dugong**) will be requested at that ti
 
 ### Access through the VNC and noVNC <a name="DockerVNC" /> [[menu]](#menu)
 
-Two other methods for accessing DugongGUI is through VNC or noVNC. Ports 6901 and 5901 are respectively the VNC and noVNC execution ports. These ports are specified during container creation on the host machine and can be changed as per Docker documentation.
+Two other methods for accessing DugongGUI is through VNC or noVNC. Ports 6901 and 5901 are respectively the VNC and noVNC execution ports. These ports are specified during container creation on the host machine and can be changed as per Docker documentation (**-p 6901:6901 -p 5901:5901**).
 
 To access noVNC it is enough that the user directs his navigator to the address below, after starting the Dugong container. The default password for noVNC access is ***vncpassword*** and can be changed at any time. The default DugongGUI user is the ***dugong*** with the ***dugong*** password.
 
@@ -342,7 +344,9 @@ To access noVNC it is enough that the user directs his navigator to the address 
 http://<IP or Host>:<port>/vnc_auto.html?password=vncpassword
 ```
 
-A client is required for Dugong access through the VNC protocol. During the tests, the VNC® Viewer for Google Chrome application was used in the Chrome Web Store.
+A client is required for Dugong access through the VNC protocol. During the tests, the VNC® Viewer for Google Chrome application was used in the Chromebook.
+
+### Access through a Web Terminal in Node.js <a name="DockerNode" /> [[menu]](#menu)
 
 For access to DugongCMD the user can use an SSH client of his choice. We also provide access through the tty application, requiring only that the user direct their browser to the address below followed by port 3000. The default DugongCMD user is the ***dugong*** with the ***dugong*** password.
 
