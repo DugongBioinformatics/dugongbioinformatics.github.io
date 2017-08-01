@@ -126,6 +126,15 @@ For more details on the Conda Project, visit its [documentation](https://conda.i
 
 [![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-09%20at%2001.33.06.png)](https://www.youtube.com/watch?v=FU944qartYE)
 
+### Anaconda Navigator <a name="Anaconda"/> [[menu]](#menu)
+
+[Anaconda Navigator](https://docs.continuum.io/anaconda/navigator/) is a desktop graphical user interface (GUI) that allows to launch applications and easily manage conda packages, environments and channels without using command-line commands. 
+
+Navigator is an easy, point-and-click way to work with packages and environments without needing to use conda commands in a terminal window. You can use it to find the packages you want, install them in an environment, run the packages and update them, all inside Navigator.
+
+The DugongGUI version provides the [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator/) in its graphical interface with the Conda and BioConda repositories configured and functional.
+
+
 ### LinuBrew <a name="LinuxBrew"/> [[menu]](#menu)
 
 [Linuxbrew](http://linuxbrew.sh/) is a fork for Linux from [Homebrew](https://brew.sh/), the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. 
