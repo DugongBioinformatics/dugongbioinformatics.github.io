@@ -358,6 +358,12 @@ For access to DugongCMD the user can use an SSH client of his choice. We also pr
 http://<IP or Host>:3000
 ```
 
+Example of access through the Web Terminal in a Google Chrome:
+
+![WebTerminal](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-24-06.png)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Dugong Virtual Box <a name="Dugong-Virtual-Box" /> [[menu]](#menu)
 
 The Dugong Virtual Box gets around the difficulty of installation by providing a functioning Dugong full install inside an Ubuntu or Fedora Linux virtual machine. You can use the Dugong Virtual Box on Mac OS X, Windows, or Linux.
