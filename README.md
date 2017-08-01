@@ -368,7 +368,7 @@ Example of access through the Web Terminal in a Google Chrome:
 
 Dugong can be expanded or adapted to the most diverse needs in a research or teaching environment. All Dugong environment configuration scripts are available in the Git Hub (https://dugongbioinformatics.github.io/), including Dockerfile for building your image.
 
-### Example of adapted tools in Dugong <a name="Example" /> [[menu]](#menu)
+### Example of adapted tools, replicability and reproducibility in Dugong <a name="Example" /> [[menu]](#menu)
 
 #### CirComPara <a name="CirComPara" /> [[menu]](#menu)
 
