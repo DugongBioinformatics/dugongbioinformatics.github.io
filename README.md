@@ -35,6 +35,8 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
     - [Deploy DugongGUI](#DeployDugongGUI)
     - [Deploy DugongCMD](#DeployDugongCMD)
 - [Deploy Dugong Image by graphical interface](#DeployGUI)
+    - [Kitematic (Windows and Mac)](#DeployGUI)
+    - [Data Pulley (Linux)](#DeployGUI)
 - [Dugong Virtual Box](#Dugong-Virtual-Box)
 - [Extending or adapting the Dugong image](#Extending)
 - [Example of adapted tools in Dugong](#Example)
