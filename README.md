@@ -261,7 +261,7 @@ docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI
 --privileged dugong/dugong:icewm
 ```
 
-### EXAMPLE: Video installation DugongGUI: <a name="Video-installation" /> [[menu]](#menu)
+### EXAMPLE: Video installation DugongGUI:
 
 - Click to watch the installation of ***DugongGUI*** on ***Linux Ubuntu Server***:
 
@@ -280,7 +280,7 @@ docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD
 --privileged dugong/dugong:cmd
 ```
 
-### EXAMPLE: Video installation DugongCMD: <a name="Video-installation" /> [[menu]](#menu)
+### EXAMPLE: Video installation DugongCMD:
 
 - Click to watch the installation of ***DugongCMD*** on ***Linux Ubuntu Server***:
 
@@ -289,6 +289,20 @@ docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD
 - Click to watch the installation of ***DugongCMD*** on ***Linux CentOS 7*** in the [CloudatCost](http://cloudatcost.com/) provider:
 
 [![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-10%20at%2006.45.18.png)](http://showterm.io/f06861ae4a22381c148e4)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Deploy by graphical interface  <a name="Video-installation" /> [[menu]](#menu)
+
+[Kitematic](https://github.com/docker/kitematic) is a simple application for managing Docker containers on Mac, Linux and Windows, allowing the deploy of Docker images and the installation and administration of containers. Dugong can be installed through [Kitematic](https://github.com/docker/kitematic) or other softwares with the same function, such as [Data Pulley](http://datapulley.com/). For more details, visit the projects page.
+
+Kitematic:
+
+![Kitematic](https://cloud.githubusercontent.com/assets/251292/8246120/d3ab271a-15ed-11e5-8736-9a730a27c79a.png)
+
+Data Pulley
+
+![Data Pulley](http://35.184.241.64/images/Pull.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
