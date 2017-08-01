@@ -16,7 +16,7 @@ All of these features, among others, make [Dugong](https://hub.docker.com/r/dugo
 
 The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committed to the principles of open source software development, where people are encouraged to use free software, study how they function, improve and distribute them freely.
 
-[-----------------------------------------------------------------------------------------------------------------------]
+[------------------------------------------------------------------------------------------------------------------------------------------------------------------]
 
 ## MENU <a name="menu" />
 
