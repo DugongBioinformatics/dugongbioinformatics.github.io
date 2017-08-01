@@ -147,7 +147,6 @@ For more details on the Anaconda Navigator, visit its [documentation](https://do
 
 [![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2001-18-04.png)](https://youtu.be/e9VOTzTOG7k)
 
-
 ### LinuxBrew <a name="LinuxBrew"/> [[menu]](#menu)
 
 [Linuxbrew](http://linuxbrew.sh/) is a fork for Linux from [Homebrew](https://brew.sh/), the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. 
@@ -174,15 +173,15 @@ For more details on the LinuxBrew Project, visit its [documentation](https://git
 
 In addition, it provides the [BioLinux](http://environmentalomics.org/bio-linux/), [CloudBioLinux](http://cloudbiolinux.org/) and [Linux Mint](https://www.linuxmint.com/) repositories for the apt-get package manager.
 
-The installation of bioinformatics packages in Dugong is not restricted to the methods presented. Sources such as [GitHub](github.com), [Bitbucket](https://bitbucket.org), [Sourceforge](https://sourceforge.net), [Pypi](https://pypi.python.org/), among others, can be used to install new tools simply and quickly.
+The installation of bioinformatics packages in [Dugong](https://hub.docker.com/r/dugong/dugong) is not restricted to the methods presented. Sources such as [GitHub](github.com), [Bitbucket](https://bitbucket.org), [Sourceforge](https://sourceforge.net), [Pypi](https://pypi.python.org/), among others, can be used to install new tools simply and quickly.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Reproducibility and Replicability <a name="Reproducibility"/> [[menu]](#menu)
 
-Among the main objectives of the Dugong project is the provision of a complete work platform for the end user that allows the reproducibility and replicability of their research in the most diverse computational environments.
+Among the main objectives of the [Dugong](https://hub.docker.com/r/dugong/dugong) project is the provision of a complete work platform for the end user that allows the reproducibility and replicability of their research in the most diverse computational environments.
 
-With this in mind, we implemented in all versions of Dugong the widely used Jupyter Notebook, among other utilities focused on the reproducibility of analyzes composed by complex computational environments and pipelines with different execution dependencies.
+With this in mind, we implemented in all versions of [Dugong](https://hub.docker.com/r/dugong/dugong) the widely used [Jupyter Notebook](http://jupyter.org/), among other utilities focused on the reproducibility of analyzes composed by complex computational environments and pipelines with different execution dependencies.
 
 ### Jupyter Notebook <a name="Jupyter"/> [[menu]](#menu)
 
