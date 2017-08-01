@@ -344,7 +344,11 @@ To access noVNC it is enough that the user directs his navigator to the address 
 http://<IP or Host>:<port>/vnc_auto.html?password=vncpassword
 ```
 
-A client is required for Dugong access through the VNC protocol. During the tests, the VNC® Viewer for Google Chrome application was used in the Chromebook.
+A client is required for Dugong access through the VNC protocol. During the tests, the VNC® Viewer for Google Chrome application was used in the Chromebook:
+
+![VNC](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-17-39.png)
+
+![VNC](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-18-33.png)
 
 ### Access through a Web Terminal in Node.js <a name="DockerNode" /> [[menu]](#menu)
 
