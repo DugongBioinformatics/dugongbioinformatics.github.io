@@ -142,7 +142,7 @@ Below is a preview of the [Anaconda Navigator](https://docs.continuum.io/anacond
 
 - Installing the bioinformatics tools: BWA and TOPHAT in DugongCMD. Installation performed through BioConda and operating test:
 
-[![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2001-07-24.png)](https://youtu.be/e9VOTzTOG7k)
+[![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2001-18-04.png)](https://youtu.be/e9VOTzTOG7k)
 
 
 ### LinuBrew <a name="LinuxBrew"/> [[menu]](#menu)
