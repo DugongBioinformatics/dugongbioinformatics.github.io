@@ -440,8 +440,4 @@ http://docker.com
 
 https://docs.docker.com/
 
-
-
-![QRCode](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/qrcode.png)
-
 [![DOI](https://zenodo.org/badge/88288867.svg)](https://zenodo.org/badge/latestdoi/88288867)
