@@ -119,14 +119,11 @@ Browse packages in the bioconda channel: [Available packages](https://bioconda.g
 
 For more details on the Conda Project, visit its [documentation](https://conda.io/docs/building/recipe.html#conda-recipe-files-overview).
 
-### LinuBrew <a name="LinuxBrew" /> [[menu]](#menu)
+### LinuBrew <a name="LinuxBrew"/> [[menu]](#menu)
 
-***Linuxbrew*** is a fork for Linux from Homebrew, the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. 
+[Linuxbrew](http://linuxbrew.sh/) is a fork for Linux from [Homebrew](https://brew.sh/), the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. 
 
-
-The installation of bioinformatics software in ***Dugong*** is extremely simple and can be run by Linuxbrew and Bioconda. In addition, it provides the Bio-Linux 8 and Linux Mint repositories for the apt-get package manager and for Synaptic.
-
-For the installation of software of bioinformatics through Linuxbrew it is enough to execute the command below in the terminal of ***Dugong***:
+For the installation of software of bioinformatics through [Linuxbrew](http://linuxbrew.sh/) it is enough to execute the command below in the terminal of [Dugong](https://hub.docker.com/r/dugong/dugong):
 
 ```
 brew install homebrew/science/<software>
@@ -138,6 +135,10 @@ or
 brew tap homebrew/science
 brew install <software> 
 ```
+
+### DEB Repository
+
+The installation of bioinformatics software in ***Dugong*** is extremely simple and can be run by Linuxbrew and Bioconda. In addition, it provides the BioLinux, CloudBioLinux and Linux Mint repositories for the apt-get package manager and for Synaptic.
 
 There are currently 2707 bioinformatics packages available in the Bioconda repository, 673 in the Linuxbrew repository, and 250 in the BioLinux 8 repository.
 
