@@ -54,6 +54,7 @@ Among the software that can be installed in Dugong, and enjoy its graphical inte
     - [Example of adapted tools, replicability and reproducibility in Dugong](#Example)
      - [CirComPara Pipeline](#CirComPara)
 - [Dugong Virtual Box](#Dugong-Virtual-Box)
+    - [Deploy Dugong Virtual Box](#DugongVM)
 - [Author](#Author)
 - [Contributing](#Contributing)
 - [MIT License](#MIT)
@@ -398,6 +399,8 @@ See more: [DugongGUI CirComPara](https://github.com/fabianomenegidio/dugongGUI-C
 ## Dugong Virtual Box <a name="Dugong-Virtual-Box" /> [[menu]](#menu)
 
 The Dugong Virtual Box gets around the difficulty of installation by providing a functioning Dugong full install inside an Ubuntu, Fedora or Arch Linux virtual machine. You can use the Dugong Virtual Box on Mac OS X, Windows, or Linux.
+
+### Deploy Dugong Virtual Box <a name="DugongVM" /> [[menu]](#menu)
 
 It is strongly recommended that your system have 8 gigabytes or more of memory to use the Dugong Virtual Box.
 
