@@ -18,6 +18,10 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+![Dugong](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## MENU <a name="menu" />
 
 - [Dugong flavours](#Dugong-flavours)
