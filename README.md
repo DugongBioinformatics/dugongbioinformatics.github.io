@@ -164,9 +164,9 @@ brew tap homebrew/science
 brew install <software> 
 ```
 
-Browse packages in the LinuxBrew channel: [Available packages](https://bioconda.github.io/recipes.html#recipes)
+Browse packages in the LinuxBrew channel: [Available packages](http://braumeister.org/repos/Homebrew/homebrew-science/browse/a)
 
-For more details on the LinuxBrew Project, visit its [documentation](https://conda.io/docs/building/recipe.html#conda-recipe-files-overview).
+For more details on the LinuxBrew Project, visit its [documentation] (https://github.com/Homebrew/brew/blob/master/docs/README.md).
 
 
 ### DEB Repository <a name="DEB"/> [[menu]](#menu)
