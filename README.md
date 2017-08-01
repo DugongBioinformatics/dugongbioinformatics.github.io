@@ -166,7 +166,7 @@ brew install <software>
 
 Browse packages in the LinuxBrew channel: [Available packages](http://braumeister.org/repos/Homebrew/homebrew-science/browse/a)
 
-For more details on the LinuxBrew Project, visit its [documentation] (https://github.com/Homebrew/brew/blob/master/docs/README.md).
+For more details on the LinuxBrew Project, visit its [documentation](https://github.com/Homebrew/brew/blob/master/docs/README.md).
 
 
 ### DEB Repository <a name="DEB"/> [[menu]](#menu)
