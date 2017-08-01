@@ -430,14 +430,11 @@ It is strongly recommended that your system have 8 gigabytes or more of memory t
 
 ## Comparison between Dugong and other bioinformatics services <a name="DugongCompare" /> [[menu]](#menu)
 
+Below we compare Dugong with the main tools available for analysis of bioinformatics in virtualized platforms and Docker. We briefly describe the function of each tool and present a brief comparison of the characteristics available in contrast to Dugong.
+
 ### Comparison between Dugong and virtualization services
 
-Name | Description | Update |
-:--: | :--: | :--: 
-Appl-Pharm | StructBioinf	Course image for the course Applied Structural Pharmaceutical Bioinformatics, an internet-based course at Uppsala University (5 credits) which is free for all students within EU	| 2014
-
-
-
+### Comparison between Dugong and Docker services
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
