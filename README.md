@@ -428,6 +428,16 @@ It is strongly recommended that your system have 8 gigabytes or more of memory t
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Comparison between Dugong and other bioinformatics services <a name="DugongCompare" /> [[menu]](#menu)
+
+### Comparison between Dugong and virtualization services
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Author <a name="Author" /> [[menu]](#menu)
 
 Current development is led by Fabiano Menegidio.
