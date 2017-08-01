@@ -18,7 +18,7 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Dugong](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png)
+![Dugong](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Dugong%20-%20images%20paper.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
