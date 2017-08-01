@@ -26,6 +26,7 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 - [Bioinformatics Software](#Bioinformatics-Software)
     - [Conda and BioConda](#BioConda)
     - [LinuxBrew](#LinuxBrew)
+    - [DEB Repository](#DEB)
     - [Dugong installation tools](#Dugong-installation-tools)
 - [Install Docker](#Install-Docker)
   - [Ubuntu](#Ubuntu)
@@ -107,7 +108,7 @@ Bioconda consists of:
 - a repository of recipes hosted on GitHub
 - a build system that turns these recipes into conda packages
 - a repository of >2700 bioinformatics packages ready to use with conda install
-- Over 250 contributors that add, modify, update and maintain the recipes
+- over 250 contributors that add, modify, update and maintain the recipes
 
 For the installation of software through [***Conda***](https://conda.io) or [BioConda](https://bioconda.github.io/), simply execute the command below in a terminal in any version of [Dugong](https://hub.docker.com/r/dugong/dugong):
 
@@ -123,7 +124,7 @@ For more details on the Conda Project, visit its [documentation](https://conda.i
 
 [Linuxbrew](http://linuxbrew.sh/) is a fork for Linux from [Homebrew](https://brew.sh/), the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. 
 
-For the installation of software of bioinformatics through [Linuxbrew](http://linuxbrew.sh/) it is enough to execute the command below in the terminal of [Dugong](https://hub.docker.com/r/dugong/dugong):
+For the installation of software of bioinformatics through [Linuxbrew](http://linuxbrew.sh/) it is enough to execute the command below in a terminal in any version of [Dugong](https://hub.docker.com/r/dugong/dugong):
 
 ```
 brew install homebrew/science/<software>
@@ -136,7 +137,7 @@ brew tap homebrew/science
 brew install <software> 
 ```
 
-### DEB Repository
+### DEB Repository <a name="DEB"/> [[menu]](#menu)
 
 The installation of bioinformatics software in ***Dugong*** is extremely simple and can be run by Linuxbrew and Bioconda. In addition, it provides the BioLinux, CloudBioLinux and Linux Mint repositories for the apt-get package manager and for Synaptic.
 
