@@ -54,12 +54,12 @@ Below we describe the tools available in each version of Dugong:
 This is the preinstalled software suite that enables better use of DugongGUI:
 
 - [Xfce4](https://www.xfce.org/) (translated as four individual letters) is a free and open source desktop environment for Unix platforms such as Linux, Solaris and BSD. As a fast, easy-to-use open-source workbench, it was selected as the official GUI for the Dugong project.
-- [IceWM](http://www.icewm.org/) is a window manager designed for lightweight simplicity and ease of use, but not focused on customizability. It looks similar to Windows 95. In beta testing at Dugong.
+- [IceWM](http://www.icewm.org/) is a window manager designed for lightweight simplicity and ease of use, but not focused on customizability. It looks similar to Windows 95. In beta testing at DugongGUI.
 
 Access as graphical interfaces available in DugongGUI can be performed through two options:
 
 - [VNC](https://www.realvnc.com/): a graphical desktop sharing system that uses the Remote Frame Buffer (RFB) protocol to remotely control another computer. It transmits the keyboard and mouse events from one computer to another, transmitting as graphical screen updates back in the other direction, over a network.
-- [noVNC](http://kanaka.github.io/noVNC/noVNC/vnc.html): a client implemented through HTML5 Canvas and WebSockets technologies that allow execution of a graphical desktop sharing system through VNC using a simple browser.
+- [noVNC](http://kanaka.github.io/noVNC/noVNC/vnc.html):  is a client for the VNC protocol that runs in your browser, and a dumb TCP-to-Websockets proxy script that you run on your server if your VNC software doesn't already support Websockets in addition to TCP. It's implemented through HTML5 Canvas and WebSockets technologies, allowing an execution of a graphical desktop sharing system using a simple browser.
 
 ***DugongGUI*** also has a set of preinstalled software packages that allow a better use of the operating system, especially:
 
