@@ -41,6 +41,8 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 - [MIT License](#MIT)
 - [Learn More](#Learn-More)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Dugong flavours <a name="Dugong-flavours" /> [[menu]](#menu)
 
 Today, the Dugong operating system is available in two versions: [***DugongGUI***](https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/README.md#DugongGUI) and [***DugongCMD***](https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/README.md#DugongCMD).
@@ -87,6 +89,8 @@ This is the preinstalled software suite that enables better use of DugongCMD:
 Access to DugongCMD can be done through the following option:
 
 - [tty.js](https://github.com/chjj/tty.js/): a terminal in your browser using node.js and socket.io. Based on Fabrice Bellard's vt100 for jslinux.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Bioinformatics Software <a name="Bioinformatics-Software" /> [[menu]](#menu)
 
