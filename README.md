@@ -378,7 +378,7 @@ Dugong can be expanded or adapted to the most diverse needs in a research or tea
 
 ### Example of adapted tools, replicability and reproducibility in Dugong <a name="Example" /> [[menu]](#menu)
 
-#### CirComPara <a name="CirComPara" /> [[menu]](#menu)
+#### CirComPara Pipeline <a name="CirComPara" /> [[menu]](#menu)
 
 ***CirComPara*** is a computational pipeline to detect, quantify, and correlate expression of linear and circular RNAs from RNA-seq data.
 
