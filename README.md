@@ -250,14 +250,14 @@ Install DugongGUI Xfce4:
 
 ```
 docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI -v $HOME/dugongxfce/:/data/ \
---privileged dugong/dugong**:xfce**
+--privileged dugong/dugong:xfce4
 ```
 
 Install DugongGUI iceWM:
 
 ```
 docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI -v $HOME/dugongicewm/:/data/ \
---privileged dugong/dugong**:icewm**
+--privileged dugong/dugong:icewm
 ```
 
 ### Deploy DugongCMD Image <a name="DeployDugongCMD" /> [[menu]](#menu)
@@ -266,7 +266,7 @@ Install DugongCMD:
 
 ```
 docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD -v $HOME/dugongcmd/:/data/ \
---privileged dugong/dugong**:cmd**
+--privileged dugong/dugong:cmd
 ```
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
