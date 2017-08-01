@@ -185,6 +185,22 @@ With this in mind, we implemented in all versions of [Dugong](https://hub.docker
 
 ### Jupyter Notebook <a name="Jupyter"/> [[menu]](#menu)
 
+Jupyter Notebook extends the console-based approach to interactive computing in a qualitatively new direction, providing a web-based application suitable for capturing the whole computation analysis: developing, documenting, and executing code, as well as communicating the results. The Jupyter notebook combines two components:
+
+- A web application: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
+
+- Notebook documents: a representation of all content visible in the web application, including inputs and outputs of the computations, explanatory text, mathematics, images, and rich media representations of objects.
+
+Main features of the web application:
+
+- In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection.
+- The ability to execute code from the browser, with the results of computations attached to the code which generated them.
+- Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures rendered by the matplotlib library, can be included inline.
+- In-browser editing for rich text using the Markdown markup language, which can provide commentary for the code, is not limited to plain text.
+- The ability to easily include mathematical notation within markdown cells using LaTeX, and rendered natively by MathJax.
+
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
