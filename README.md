@@ -8,11 +8,13 @@
 
 It's an implementation built under the MIT license using the Docker platform, an open-source project that automates the implementation of applications within software containers, providing an additional layer of abstraction and automation of operating system-level virtualization on Linux. Docker uses the Linux kernel resource isolation features, such as cgroups and namespaces, as well as the file system AuFS (advanced multi layered unification filesystem) to allow independent "containers" to run In a single Linux instance, avoiding an overload of initialization and maintenance of virtual machines. The Dugong project enables efficient creation of reusable containers for bioinformatics data, making the analysis environment and all computational results reproducible by the scientific community.
 
-Dugong is based on version 16.04 of the Ubuntu image (https://hub.docker.com/r/_/ubuntu), a Linux operating system inspired on the Debian distribution. The Ubuntu project is publicly committed to the principles of open source software development, where people are encouraged to use free software, study how they function, improve and distribute them freely. 
+Dugong is based on version 16.04 of [Ubuntu Image](https://hub.docker.com/r/_/ubuntu), being the only Docker system that provides users with a full XFCE4 graphical interface, independent of the host, for the installation and use of bioinformatics applications.
 
-For more details on the Ubuntu operating system: [http://www.ubuntu.com](http://www.ubuntu.com).
+Dugong requires a minimum of knowledge about Docker, Linux or computing for its implementation, being compatible with Linux, Windows and MacOS operating systems. 
 
-Dugong requires a minimum of knowledge about Docker, Linux or computing for its implementation, being compatible with Linux, Windows and MacOS operating systems. It also enables the execution of a complete work environment in high performance computing environments (HPC), virtual private server (VPS), as well as private, public or hybrid cloud computing.
+It also enables the execution of a complete work environment in high performance computing environments (HPC), virtual private server (VPS), as well as private, public or hybrid cloud computing.
+
+The Dugong project is publicly committed to the principles of open source software development, where people are encouraged to use free software, study how they function, improve and distribute them freely.
 
 ## MENU <a name="menu" />
 
