@@ -20,6 +20,8 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 
 ![Dugong](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Dugong%20-%20images%20paper.png)
 
+Through the simple Docker Client commands, the user can download the Dugong images, and install and manage the containers generated using the Docker Daemon on the host computer (b). The Dugong image is currently available in Docker Hub (c), containing more than 3000 bioinformatics software and its dependencies thanks to the integration of the BioConda and LinuxBrew projects (d). Among the software that can be installed in Dugong, and enjoy its graphical interface XFCE4, are: Blast2GO, UGene, Apache Taverna, Integrative Genomics Viewer (IGV), Mauve, RStudio, Cytoscape, QIIME (e), among others. Some of these software are already functional in a Dugong image in our GitHub repository.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## MENU <a name="menu" />
