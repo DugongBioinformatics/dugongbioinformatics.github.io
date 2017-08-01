@@ -25,6 +25,7 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
   - [DugongCMD Version](#DugongCMD)
 - [Installing Bioinformatics Software](#Bioinformatics-Software)
     - [Conda and BioConda](#BioConda)
+    - [Anaconda Navigator](#Anaconda)
     - [LinuxBrew](#LinuxBrew)
     - [DEB Repository](#DEB)
 - [Install Docker](#Install-Docker)
