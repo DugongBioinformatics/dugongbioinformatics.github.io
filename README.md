@@ -435,6 +435,9 @@ It is strongly recommended that your system have 8 gigabytes or more of memory t
 Name | Description | Update |
 :-- | :--: | :--: 
 
+Appl. Pharm. | StructBioinf	Course image for the course Applied Structural Pharmaceutical Bioinformatics, an internet-based course at Uppsala University (5 credits) which is free for all students within EU.	| 2014-10-15
+
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
