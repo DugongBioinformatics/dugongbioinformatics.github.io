@@ -19,8 +19,9 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 ## MENU <a name="menu" />
 
 - [Dugong flavours](#Dugong-flavours)
-  - [All versions of Dugong](#All versions of Dugong)
-  - [DugongCMD](#DugongCMD)
+  - [All versions of Dugong](#AllDugong)
+  - [DugongGUI Version](#DugongGUI)
+  - [DugongCMD Version](#DugongCMD)
 - [Bioinformatics Software](#Bioinformatics-Software)
     - [Dugong installation tools](#Dugong-installation-tools)
 - [Install Docker](#Install-Docker)
@@ -49,7 +50,7 @@ Already the [***DugongCMD***](https://github.com/DugongBioinformatics/dugongbioi
 
 Below we describe the tools available in each version of Dugong:
 
-### All versions of Dugong <a name="All versions of Dugong" /> [[menu]](#menu)
+### All versions of Dugong <a name="AllDugong" /> [[menu]](#menu)
 
 Our great differential for applications in bioinformatics and computational biology. Based on Ubuntu 16.04, the ***DugongGUI*** image has two graphical interface (GUI) options: ***Xfce4*** or ***IceWM*** (beta).
 
