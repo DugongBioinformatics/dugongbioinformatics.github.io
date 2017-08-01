@@ -188,9 +188,9 @@ With this in mind, we implemented in all versions of [Dugong](https://hub.docker
 
 [Jupyter Notebook](http://jupyter.org/) extends the console-based approach to interactive computing in a qualitatively new direction, providing a web-based application suitable for capturing the whole computation analysis: developing, documenting, and executing code, as well as communicating the results. The [Jupyter Notebook](http://jupyter.org/) combines two components:
 
-- A web application: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
+- A **web application**: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
 
-- Notebook documents: a representation of all content visible in the web application, including inputs and outputs of the computations, explanatory text, mathematics, images, and rich media representations of objects.
+- **Notebook documents**: a representation of all content visible in the web application, including inputs and outputs of the computations, explanatory text, mathematics, images, and rich media representations of objects.
 
 Main features of the web application:
 
@@ -205,8 +205,6 @@ Below is a preview of the [Jupyter Notebook](http://jupyter.org/) interface:
 ![Jupyter Notebook](https://docs.microsoft.com/pt-br/azure/virtual-machines/linux/media/jupyter-notebook/ipy-notebook-spectral.png)
 
 Dugong provided the [Jupyter Notebook](http://jupyter.org/) with [Python 2.7.1](https://www.python.org/), the [IPython2 Kernel](http://ipython.readthedocs.io/en/stable/index.html) and the [Notebook Conda Kernel](https://docs.continuum.io/anaconda/user-guide/tasks/use-jupyter-notebook-extensions), this extension allows administration of the entire Conda environment and a package installation through the Jupyter interface. Below is a preview of the [Notebook Conda Kernel](https://docs.continuum.io/anaconda/user-guide/tasks/use-jupyter-notebook-extensions) interface:
-
-![Jupyter Notebook](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2002-21-50.png)
 
 ![Jupyter Notebook](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2002-22-16.png)
 
