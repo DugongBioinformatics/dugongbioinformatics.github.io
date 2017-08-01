@@ -76,7 +76,7 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 - [MEGASync](https://mega.nz/#sync): a desktop client for MEGA Service Cloud providing easy automatic synchronization of files and folders between our computer and the cloud drive with 50Gb storage.
 - [MEGAcmd](https://mega.nz/cmd): tool that allows access through the Mega cloud command line and provides a set of powerful commands for a file manipulation.
 
-***DugongGUI*** allows a simple, quick and easy distribution of any bioinformatics application that can be installed on an Ubuntu operating system.  It also allows the generated containers to be used for a wide range of purposes, such as training, data analysis, tool implementation, devops, etc.
+***DugongGUI*** allows a simple, quick and easy distribution of any bioinformatics application that can be installed on an Ubuntu operating system.  It also allows the generated containers to be used for a wide range of purposes, such as training, data analysis, tool implementation, devops, etc. In addition, it allows graphical visualization of results from different computational analyzes, such as graphs and figures of software and statistical tools, among others.
 
 ### DugongCMD <a name="DugongCMD" /> [[menu]](#menu)
 
@@ -94,16 +94,32 @@ Access to DugongCMD can be done through the following option:
 
 ## Bioinformatics Software <a name="Bioinformatics-Software" /> [[menu]](#menu)
 
-Two open-source projects were integrated with ***Dugong***, [Linuxbrew](http://linuxbrew.sh/) and [Conda](http://conda.pydata.org/), for the simple distribution of bioinformatics packages. 
+Two open-source projects were integrated with [Dugong](https://hub.docker.com/r/dugong/dugong): [BioConda](https://bioconda.github.io/) and [Linuxbrew](http://linuxbrew.sh/), for the simple distribution of bioinformatics packages. 
 
-***Linuxbrew*** is a fork for Linux from Homebrew, the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. ***Conda*** is a package manager that allows the installation, distribution and updating of different packages and their respective dependencies. It has a software distribution channel focused on bioinformatics tools called [Bioconda](https://bioconda.github.io).
+### BioConda
+
+[***Conda***](https://conda.io) is a package manager that allows the installation, distribution and updating of different packages and their respective dependencies. It has a software distribution channel focused on bioinformatics tools called [Bioconda](https://bioconda.github.io).
 
 Bioconda consists of:
 
 - a repository of recipes hosted on GitHub
 - a build system that turns these recipes into conda packages
-- a repository of >1500 bioinformatics packages ready to use with conda install
-- Over 130 contributors that add, modify, update and maintain the recipes
+- a repository of >2700 bioinformatics packages ready to use with conda install
+- Over 250 contributors that add, modify, update and maintain the recipes
+
+For the installation of software through [***Conda***](https://conda.io) or [BioConda](https://bioconda.github.io/), simply execute the command below in a terminal in any version of [Dugong](https://hub.docker.com/r/dugong/dugong):
+
+```
+conda install <software>
+```
+
+Browse packages in the bioconda channel: [Available packages](https://bioconda.github.io/recipes.html#recipes)
+
+For more details on the Conda Project, visit its [documentation](https://conda.io/docs/building/recipe.html#conda-recipe-files-overview).
+
+
+***Linuxbrew*** is a fork for Linux from Homebrew, the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. 
+
 
 The installation of bioinformatics software in ***Dugong*** is extremely simple and can be run by Linuxbrew and Bioconda. In addition, it provides the Bio-Linux 8 and Linux Mint repositories for the apt-get package manager and for Synaptic.
 
@@ -118,12 +134,6 @@ or
 ```bash 
 brew tap homebrew/science
 brew install <software> 
-```
-
-Already for a bioinformatics software installation by Bioconda, the command below is necessary not to bash the ***Dugong***:
-
-```
-conda install <software>
 ```
 
 There are currently 2707 bioinformatics packages available in the Bioconda repository, 673 in the Linuxbrew repository, and 250 in the BioLinux 8 repository.
