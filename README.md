@@ -24,6 +24,8 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
   - [DugongGUI Version](#DugongGUI)
   - [DugongCMD Version](#DugongCMD)
 - [Bioinformatics Software](#Bioinformatics-Software)
+    - [Conda and BioConda](#BioConda)
+    - [LinuxBrew](#LinuxBrew)
     - [Dugong installation tools](#Dugong-installation-tools)
 - [Install Docker](#Install-Docker)
   - [Ubuntu](#Ubuntu)
@@ -96,7 +98,7 @@ Access to DugongCMD can be done through the following option:
 
 Two open-source projects were integrated with [Dugong](https://hub.docker.com/r/dugong/dugong): [BioConda](https://bioconda.github.io/) and [Linuxbrew](http://linuxbrew.sh/), for the simple distribution of bioinformatics packages. 
 
-### BioConda
+### Conda and BioConda <a name="BioConda" /> [[menu]](#menu)
 
 [***Conda***](https://conda.io) is a package manager that allows the installation, distribution and updating of different packages and their respective dependencies. It has a software distribution channel focused on bioinformatics tools called [Bioconda](https://bioconda.github.io).
 
