@@ -214,7 +214,9 @@ The **script** command stores terminal activities in a log file that will be nam
 
 More details on the commands can be obtained through the video below:
 
-https://www.youtube.com/watch?v=BGdxsjiLF-U
+[![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2002-59-05.png)](https://www.youtube.com/watch?v=BGdxsjiLF-U)
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
