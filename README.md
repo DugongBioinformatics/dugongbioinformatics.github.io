@@ -308,7 +308,7 @@ Other Graphical Interfaces to Docker include:
 
 [Panamax.io](http://panamax.io/): is a browser rendered graphical environment for pulling together image compositions, although it currently needs to be started from the command line.
 
-![Panamax.io](http://devops.com/wp-content/uploads/2014/08/panamax-2.jpg)
+![Panamax.io](http://panamax.io/assets/images/preview_images/marketing_screen_01_big.png)
 
 
 For more details, visit the projects page.
