@@ -58,8 +58,8 @@ This is the preinstalled software suite that enables better use of DugongGUI:
 
 Access as graphical interfaces available in DugongGUI can be performed through two options:
 
-- [VNC](https://www.realvnc.com/): a graphical desktop sharing system that uses the Remote Frame Buffer (RFB) protocol to remotely control another computer. It transmits the keyboard and mouse events from one computer to another, transmitting as graphical screen updates back in the other direction, over a network.
-- [noVNC](http://kanaka.github.io/noVNC/noVNC/vnc.html):  is a client for the VNC protocol that runs in your browser, and a dumb TCP-to-Websockets proxy script that you run on your server if your VNC software doesn't already support Websockets in addition to TCP. It's implemented through HTML5 Canvas and WebSockets technologies, allowing an execution of a graphical desktop sharing system using a simple browser.
+- [VNC](https://www.realvnc.com/): a graphical desktop sharing system that uses the [Remote Frame Buffer (RFB) protocol](https://en.wikipedia.org/wiki/RFB_protocol) to remotely control another computer. It transmits the keyboard and mouse events from one computer to another, transmitting as graphical screen updates back in the other direction, over a network.
+- [noVNC](http://kanaka.github.io/noVNC/noVNC/vnc.html):  is a client for the VNC protocol that runs in your browser, and a dumb TCP-to-Websockets proxy script that you run on your server if your VNC software doesn't already support [Websockets](https://en.wikipedia.org/wiki/WebSocket) in addition to TCP. It's implemented through [HTML5 Canvas](https://en.wikipedia.org/wiki/Canvas_element) and [Websockets](https://en.wikipedia.org/wiki/WebSocket) technologies, allowing an execution of a graphical desktop sharing system using a simple browser.
 
 ***DugongGUI*** also has a set of preinstalled software packages that allow a better use of the operating system, especially:
 
