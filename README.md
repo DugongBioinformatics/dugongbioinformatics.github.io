@@ -138,6 +138,12 @@ Below is a preview of the [Anaconda Navigator](https://docs.continuum.io/anacond
 
 ![Anaconda Navigator](https://hackpad-attachments.s3.amazonaws.com/hackpad.com_yCq7aubg9ux_p.135391_1486144822844_anaconda_navigator.PNG)
 
+#### EXAMPLE: Installation in Dugong using BioConda:
+
+- Installing the bioinformatics tools: BWA and TOPHAT in DugongCMD. Installation performed through BioConda and operating test:
+
+[![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2001-07-24.png)](https://youtu.be/e9VOTzTOG7k)
+
 
 ### LinuBrew <a name="LinuxBrew"/> [[menu]](#menu)
 
