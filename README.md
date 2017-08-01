@@ -220,17 +220,17 @@ Channel video: https://www.linuxhelp.com/script-scriptreplay-commands-linux-exam
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Deploy and access Dugong <a name="Deploy" /> [[menu]](#menu)
+## Deploy Dugong Image <a name="Deploy" /> [[menu]](#menu)
 
-The Docker project provides a public cloud called the [Docker Hub](https://hub.docker.com) for sharing the developed containers. This cloud allows access to the application in a centralized and simple way, that is, it is possible to obtain a complete Dugong environment with command lines for its implementation.
+The [Dugong](https://hub.docker.com/r/dugong/dugong) project provides a public cloud called the  for sharing the developed containers. This cloud allows access to the application in a centralized and simple way, that is, it is possible to obtain a complete Dugong environment with command lines for its implementation.
 
-To start a container, the user must have Docker installed on his operating system, according to the tutorials available in the project documentation. The Dugong image is available in the [Docker Hub](https://github.com/fabianomenegidio/dugong-bioinformatics) and its use is the recommended method of installation.
+To start a container, the user must have Docker installed on his operating system, according to the [tutorials available in the project documentation](https://docs.docker.com/engine/installation/#server). The [Dugong image](https://github.com/fabianomenegidio/dugong-bioinformatics) is available in the [Docker Hub](https://hub.docker.com) and its use is the recommended method of installation.
 
-Two steps are required to start a container containing Dugong. In the first step, the Dugong image is downloaded from the Docker Hub servers to the host, and in the second, a container is created on the host machine with the default Dugong installation. If the host machine is a Linux, the following commands must be performed in the terminal:
+Two steps are required to start a container containing [Dugong](https://hub.docker.com/r/dugong/dugong). In the first step, the [Dugong image](https://github.com/fabianomenegidio/dugong-bioinformatics)  is downloaded from the [Docker Hub](https://hub.docker.com) servers to the host, and in the second, a container is created on the host machine with the default [Dugong](https://hub.docker.com/r/dugong/dugong) installation. If the host machine is a Linux, the following commands must be performed in the terminal:
 
 ```
 docker pull dugong/dugong
-docker run -d -p 5901:5901 -p 6901:6901 --name Dugong -h Dugong -v $HOME/dugong/:/data/ \
+docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name Dugong -h Dugong -v $HOME/dugong/:/data/ \
 --privileged dugong/dugong
 ```
 
@@ -239,28 +239,38 @@ At the end of the commands a Dugong instance will be available in the container 
 ```
 docker ps
 ```
-The default installation version of Dugong is DugongGUI with Xfce4. To change the installed version simply add one of the tags in the deploy command: ***xfce4***, ***icewm*** or ***cmd***.
+
+The default installation version of Dugong is DugongGUI with XFCE4. 
+
+To change the installed version simply add one of the tags in the deploy command: ***xfce4***, ***icewm*** or ***cmd***.
+
+### Deploy DugongGUI Image <a name="DeployDugongGUI" /> [[menu]](#menu)
 
 Install DugongGUI Xfce4:
 
 ```
-docker run -d -p 5901:5901 -p 6901:6901 --name DugongGUI -h DugongGUI -v $HOME/dugongxfce/:/data/ \
+docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI -v $HOME/dugongxfce/:/data/ \
 --privileged dugong/dugong:xfce
 ```
 
 Install DugongGUI iceWM:
 
 ```
-docker run -d -p 5901:5901 -p 6901:6901 --name DugongGUI -h DugongGUI -v $HOME/dugongicewm/:/data/ \
+docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI -v $HOME/dugongicewm/:/data/ \
 --privileged dugong/dugong:icewm
 ```
+
+### Deploy DugongCMD Image <a name="DeployDugongCMD" /> [[menu]](#menu)
 
 Install DugongCMD:
 
 ```
-docker run -d -p 3000:3000 --name DugongCMD -h DugongCMD -v $HOME/dugongcmd/:/data/ \
+docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD -v $HOME/dugongcmd/:/data/ \
 --privileged dugong/dugong:cmd
 ```
+
+### Access Dugong Container <a name="AccessDugongCMD" /> [[menu]](#menu)
+
 
 Access to the Dugong container can be done in a variety of ways, with access through the simplest Docker console. This access will not be of great attraction to the user and should be used only in case of problems during the execution of Dugong and for the analysis of problems with the container. Through this access the user can restart Linux services, analyze system and application logs, among other functions.
 
