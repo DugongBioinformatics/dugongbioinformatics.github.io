@@ -119,6 +119,7 @@ Browse packages in the bioconda channel: [Available packages](https://bioconda.g
 
 For more details on the Conda Project, visit its [documentation](https://conda.io/docs/building/recipe.html#conda-recipe-files-overview).
 
+### LinuBrew <a name="LinuxBrew" /> [[menu]](#menu)
 
 ***Linuxbrew*** is a fork for Linux from Homebrew, the MacOS package manager, developed and maintained by Shaun Jackman. The project has [Homebrew Science](https://github.com/Homebrew/homebrew-science), a version focused on the distribution of scientific software. 
 
