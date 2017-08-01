@@ -376,7 +376,7 @@ Dugong can be expanded or adapted to the most diverse needs in a research or tea
 
 - CircRNA analysis using a ***CirComPara*** tool on an ***Ubuntu Server*** with a ***DugongGUI*** container installed:
 
-[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugongGUI-CirComPara/master/.misc/Screenshot%202017-05-09%20at%2000.57.47.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
+[![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-41-23.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
 
 See more: [DugongGUI CirComPara](https://github.com/fabianomenegidio/dugongGUI-CirComPara)
 
