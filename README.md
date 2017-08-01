@@ -28,6 +28,7 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
     - [Anaconda Navigator](#Anaconda)
     - [LinuxBrew](#LinuxBrew)
     - [DEB Repository](#DEB)
+- [Reproducibility and Replicability] (#Reproducibility)
 - [Install Docker](#Install-Docker)
   - [Ubuntu](#Ubuntu)
   - [Fedora](#Fedora) 
@@ -171,15 +172,17 @@ For more details on the LinuxBrew Project, visit its [documentation](https://git
 
 ### DEB Repository <a name="DEB"/> [[menu]](#menu)
 
-The installation of bioinformatics software in ***Dugong*** is extremely simple and can be run by Linuxbrew and Bioconda. In addition, it provides the BioLinux, CloudBioLinux and Linux Mint repositories for the apt-get package manager and for Synaptic.
+In addition, it provides the [BioLinux](http://environmentalomics.org/bio-linux/), [CloudBioLinux](http://cloudbiolinux.org/) and [Linux Mint](https://www.linuxmint.com/) repositories for the apt-get package manager.
 
-There are currently 2707 bioinformatics packages available in the Bioconda repository, 673 in the Linuxbrew repository, and 250 in the BioLinux 8 repository.
+The installation of bioinformatics packages in Dugong is not restricted to the methods presented. Sources such as [GitHub](github.com), [Bitbucket](https://bitbucket.org), [Sourceforge](https://sourceforge.net), [Pypi](https://pypi.python.org/), among others, can be used to install new tools simply and quickly.
 
-The installation of bioinformatics packages in Dugong is not restricted to the methods presented. An example is BaseMount, the tool for mounting your BaseSpace Sequence Hub data as a Linux file system. With it, you can navigate projects, samples, runs, and application results and interact directly with associated files, just like any other local file system.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Sources such as GitHub, for example, can be used to install new tools simply and quickly.
+## Reproducibility and Replicability <a name="Reproducibility"/> [[menu]](#menu)
 
-![line](http://skstroi.ru/wp-content/uploads/2016/05/foot-line.png)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Install Docker <a name="Install-Docker" /> [[menu]](#menu)
 
