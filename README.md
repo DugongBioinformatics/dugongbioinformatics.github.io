@@ -134,6 +134,8 @@ Navigator is an easy, point-and-click way to work with packages and environments
 
 The DugongGUI version provides the [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator/) in its graphical interface with the Conda and BioConda repositories configured and functional.
 
+![Anaconda Navigator](https://hackpad-attachments.s3.amazonaws.com/hackpad.com_yCq7aubg9ux_p.135391_1486144822844_anaconda_navigator.PNG)
+
 
 ### LinuBrew <a name="LinuxBrew"/> [[menu]](#menu)
 
