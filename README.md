@@ -122,7 +122,7 @@ For more details on the Conda Project, visit its [documentation](https://conda.i
 
 #### EXAMPLE: Installation in Dugong using BioConda:
 
-- Installing the bioinformatics tools: BWA and TOPHAT in DugongCMD. Installation performed through BioConda and operating test:
+- Video installation of bioinformatics tools: BWA and TOPHAT in DugongCMD. Installation performed through BioConda and operating test:
 
 [![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/master/.misc/Screenshot%202017-05-09%20at%2001.33.06.png)](https://www.youtube.com/watch?v=FU944qartYE)
 
@@ -138,9 +138,9 @@ Below is a preview of the [Anaconda Navigator](https://docs.continuum.io/anacond
 
 ![Anaconda Navigator](https://hackpad-attachments.s3.amazonaws.com/hackpad.com_yCq7aubg9ux_p.135391_1486144822844_anaconda_navigator.PNG)
 
-#### EXAMPLE: Installation in Dugong using BioConda:
+#### EXAMPLE: Installation in Dugong using Anaconda Navigator:
 
-- Installing the bioinformatics tools: BWA and TOPHAT in DugongCMD. Installation performed through BioConda and operating test:
+- Video installation of bioinformatics tools: BWA and TOPHAT in DugongGUI. Installation performed through Anaconda Navigator and operational test:
 
 [![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2001-18-04.png)](https://youtu.be/e9VOTzTOG7k)
 
