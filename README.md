@@ -364,9 +364,30 @@ Example of access through the Web Terminal in a Google Chrome:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Extending or adapting the Dugong image <a name="Extending" /> [[menu]](#menu)
+
+Dugong can be expanded or adapted to the most diverse needs in a research or teaching environment. All Dugong environment configuration scripts are available in the Git Hub (https://dugongbioinformatics.github.io/), including Dockerfile for building your image.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Example of adapted tools in Dugong <a name="Example" /> [[menu]](#menu)
+
+### CirComPara <a name="CirComPara" /> [[menu]](#menu)
+
+***CirComPara*** is a computational pipeline to detect, quantify, and correlate expression of linear and circular RNAs from RNA-seq data.
+
+- CircRNA analysis using a ***CirComPara*** tool on an ***Ubuntu Server*** with a ***DugongGUI*** container installed:
+
+[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugongGUI-CirComPara/master/.misc/Screenshot%202017-05-09%20at%2000.57.47.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
+
+See more: [DugongGUI CirComPara](https://github.com/fabianomenegidio/dugongGUI-CirComPara)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Dugong Virtual Box <a name="Dugong-Virtual-Box" /> [[menu]](#menu)
 
-The Dugong Virtual Box gets around the difficulty of installation by providing a functioning Dugong full install inside an Ubuntu or Fedora Linux virtual machine. You can use the Dugong Virtual Box on Mac OS X, Windows, or Linux.
+The Dugong Virtual Box gets around the difficulty of installation by providing a functioning Dugong full install inside an Ubuntu, Fedora or Arch Linux virtual machine. You can use the Dugong Virtual Box on Mac OS X, Windows, or Linux.
 
 It is strongly recommended that your system have 8 gigabytes or more of memory to use the Dugong Virtual Box.
 
@@ -392,25 +413,7 @@ It is strongly recommended that your system have 8 gigabytes or more of memory t
         DugongGUI and CirComPara: http://localhost:<port>/vnc_auto.html?password=vncpassword (ports displayed in the above command)
         DugongCMD: http://localhost:3000 (login: dugong / password: dugong)
 
-## Extending or adapting the Dugong image <a name="Extending" /> [[menu]](#menu)
-
-Dugong can be expanded or adapted to the most diverse needs in a research or teaching environment. All Dugong environment configuration scripts are available in the Git Hub (https://dugongbioinformatics.github.io/), including Dockerfile for building your image.
-
-## Example of adapted tools in Dugong <a name="Example" /> [[menu]](#menu)
-
-### CirComPara <a name="CirComPara" /> [[menu]](#menu)
-
-***CirComPara*** is a computational pipeline to detect, quantify, and correlate expression of linear and circular RNAs from RNA-seq data.
-
-- CircRNA analysis using a ***CirComPara*** tool on an ***Ubuntu Server*** with a ***DugongGUI*** container installed:
-
-[![Watch the video](https://raw.githubusercontent.com/fabianomenegidio/dugongGUI-CirComPara/master/.misc/Screenshot%202017-05-09%20at%2000.57.47.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
-
-See more: [DugongGUI CirComPara](https://github.com/fabianomenegidio/dugongGUI-CirComPara)
-
-![line](http://skstroi.ru/wp-content/uploads/2016/05/foot-line.png)
-
-![Docker](https://static1.squarespace.com/static/513914cde4b0f86e34bbb954/t/58409793bebafb1c4cfe75e3/1480628120385/DockerBanner.png)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Author <a name="Author" /> [[menu]](#menu)
 
