@@ -37,6 +37,7 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
 - [Deploy Dugong Image by graphical interface](#DeployGUI)
     - [Kitematic (Windows and Mac)](#DeployGUI)
     - [Data Pulley (Linux)](#DeployGUI)
+- [Access Dugong Container](#AccessDugong)
 - [Dugong Virtual Box](#Dugong-Virtual-Box)
 - [Extending or adapting the Dugong image](#Extending)
 - [Example of adapted tools in Dugong](#Example)
@@ -311,15 +312,27 @@ For more details, visit the projects page.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Access Dugong Container <a name="AccessDugongCMD" /> [[menu]](#menu)
+## Access Dugong Container <a name="AccessDugong"/> [[menu]](#menu)
 
-Access to the Dugong container can be done in a variety of ways, with access through the simplest Docker console. This access will not be of great attraction to the user and should be used only in case of problems during the execution of Dugong and for the analysis of problems with the container. Through this access the user can restart Linux services, analyze system and application logs, among other functions.
+### Access through the Docker console <a name="DockerConsole"/> [[menu]](#menu)
 
-To access the Docker console and access Dugong's bash, simply run the following command on the Linux terminal on your host machine:
+Access to Dugong containers can be done in many ways, with access through the simplest Docker console. This access will not be of great attraction to the user without command line experience and should only be used in case of problems while running Dugong. Through this access, the user can restart Linux services, analyze system logs and applications, among other functions. To access the Docker console, simply run the following command on the Linux terminal on your host machine:
 
 ```
 docker exec -it Dugong /bin/bash
 ```
+
+### Access through the SSH protocol <a name="DockerSSH"/> [[menu]](#menu)
+
+Access through the SSH protocol is also available in all versions of Dugong. The Dugong execution command includes the "-p 2222: 22" option, where we direct the SSH port of the container to port 2222 of the host. To access Dugong by SSH, from your host machine, simply execute the following command:
+
+```
+ssh -p 2222 dugong@localhost
+```
+
+The **dugong** user's default password (**dugong**) will be requested at that time. This password can be changed through the command: **passwd dugong**
+
+### Access through the VNC and noVNC <a name="DockerVNC" /> [[menu]](#menu)
 
 Two other methods for accessing DugongGUI is through VNC or noVNC. Ports 6901 and 5901 are respectively the VNC and noVNC execution ports. These ports are specified during container creation on the host machine and can be changed as per Docker documentation.
 
