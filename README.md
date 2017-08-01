@@ -29,6 +29,7 @@ The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committ
     - [LinuxBrew](#LinuxBrew)
     - [DEB Repository](#DEB)
 - [Reproducibility and Replicability](#Reproducibility)
+    - [Jupyter Notebook](#Jupyter)
 - [Install Docker](#Install-Docker)
   - [Ubuntu](#Ubuntu)
   - [Fedora](#Fedora) 
