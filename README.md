@@ -14,7 +14,7 @@ Thinking about the replicability and reproducibility of different lines of resea
 
 All of these features, among others, make [Dugong](https://hub.docker.com/r/dugong/dugong) one of the most complete [Docker](https://www.docker.com/) desktop environments available today, and allow any user with minimal computing knowledge to run a [Dugong](https://hub.docker.com/r/dugong/dugong) container in [high performance computing](https://en.wikipedia.org/wiki/Supercomputer) (HPC) environments, [Virtual Private Server](https://en.wikipedia.org/wiki/Virtual_private_server) (VPS), as well as in private, public, or hybrid [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) environments of different commercial service providers.
 
-The Dugong project is publicly committed to the principles of open source software development, where people are encouraged to use free software, study how they function, improve and distribute them freely.
+The [Dugong project](https://hub.docker.com/r/dugong/dugong) is publicly committed to the principles of open source software development, where people are encouraged to use free software, study how they function, improve and distribute them freely.
 
 ## MENU <a name="menu" />
 
