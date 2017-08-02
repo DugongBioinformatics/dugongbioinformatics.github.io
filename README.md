@@ -462,7 +462,9 @@ In particular, it provides:
 
 [DockStore](https://docker-ui.genouest.org): is a Docker registry which provides a place for users to share tools encapsulated in Docker and described with the Common Workflow Language (CWL) or Workflow Description Language (WDL). This allows scientists to share analytical workflows so that they are machine readable and can be run in a variety of environments. While the Dockstore is focused on serving researchers in biosciences, the combination of Docker + CWL / WDL can be used by anyone to describe the tools and services in their Docker images in a standardized, machine-readable way.
 
-Currently, the DugongGUI (XFCE4) and DugongCMD versions are available in the Registry DockStore. In the future we will provide examples of how Dugong can be implemented in CWL workflows in this environment.
+Currently, the DugongGUI (XFCE4) and DugongCMD versions are available in the Registry DockStore. Implementing Dugong in the DockStore repository provides a new user option, which can add tools with graphical interfaces to its workflow. With this, the user can perform analyzes and visualize graphical data as a step in their pipeline without the need to use a local workstation.
+
+In the future we will provide examples of how Dugong can be implemented in CWL workflows in this environment.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
