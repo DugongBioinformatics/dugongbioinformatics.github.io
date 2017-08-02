@@ -436,7 +436,7 @@ Below we compare Dugong with the main tools available for analysis of bioinforma
 
 ### Comparison between Dugong and Docker services
 
-![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_cloud.png)
+![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_cloud_2.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
