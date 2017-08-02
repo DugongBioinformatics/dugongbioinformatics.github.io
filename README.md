@@ -438,7 +438,7 @@ Below we compare Dugong with the main tools available for analysis of bioinforma
 
 Comparison between the main features provided by Dugong and the tools for bioinformatics BioContainer, GUIdock and AlgoRun.
 
-![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_cloud_2.png)
+![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_cloud.png)
 
 In analyzing the comparative table we can see that Dugong is the most complete Docker service available so far, focused on implementing a work environment for bioinformatics analysis directed at the end user.
 
