@@ -88,6 +88,22 @@ Access as graphical interfaces available in DugongGUI can be performed through t
 - [noVNC](http://kanaka.github.io/noVNC/noVNC/vnc.html):  is an HTML5-based remote desktop web client that can communicate with a remote VNC server via Web Sockets. The noVNC architecture is composed of 6 main components:
 
   - VNC / RFB Deployment Core: This component encapsulates all the intelligence of the RFB protocol and is the main machine that orchestrates everything else.
+  - Canvas abstraction: This component provides an abstraction of the HTML5 Canvas APIs. It also has the Canvas detection functionality to handle browsers that do not have the full implementation of HTML5.
+  - User Interface: Any interaction with the HTML DOM (except Canvas) is encapsulated in this component. It renders page controls such as the connect / disconnect button, settings, and the status of responses. This is the main component that allows easy integration of noVNC with Dugong and other tools.
+  - Utilities: This contains several generic routines and extensions used by noVNC including: extensions to Javascript arrays to make them more useful as queues, event management between browsers, debugging / logging.
+  - WebSockets Compatibility: Enables Flash (flex) emulation for browsers that do not have native support for WebSockets, as well as providing encryption support for WebSocktes.
+  - WebSockets Proxy for TCP: a TCP-to-Websockets proxy script, which implements an initial validation similar to HTTP to establish the connection, and then each packet sent begins with a 0 (zero) byte and ends with a 255 byte. This proxy becomes necessary for translation between WebSockets and the standard TCP socket, while VNC does not implement native support for WebSockets.
+  
+  The following list shows full features offered by noVNC.
+
+   - Supports all modern browsers including those on iOS, Android.
+   - Supported VNC encodings: raw, copyrect, rre, hextile, tight, tightPNG
+   - WebSocket SSL/TLS encryption (i.e. “wss://”) support
+   - 24-bit true color and 8 bit colour mapped
+   - Supports desktop resize notification/pseudo-encoding
+   - Local or remote cursor
+   - Clipboard copy/paste
+   - Clipping or scrolling modes for large remote screens
 
 ***DugongGUI*** also has a set of preinstalled software packages that allow a better use of the operating system, especially:
 
