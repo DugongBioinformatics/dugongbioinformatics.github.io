@@ -46,6 +46,6 @@ Likewise, Dugong becomes a great choice for developers who need to autonomously 
 
 Its implementation depends on solid knowledge in a high performance computing environment using platforms such as Sun Grid Engine, Torque, SLURM, among others. It also requires knowledge about the Docker platform and orchestration systems, such as those already mentioned: Docker Swarm, Apache Mesos, Kubernetes, among others.
 
-After its implementation by a Linux system administrator, the end user can use its resources using containers implemented with DugongGUI and mainly DugongCMD, to compose different pipes and execute parallel processes.
+After the implementation by a Linux system administrator, the end user can execute containers with Dugong, mainly DugongCMD, to compose different pipelines and take advantage of the task scheduling system provided by Go-Docker.
 
 For more information on how to implement a Go-Docker environment, visit the [documentation](https://godocker.atlassian.net/wiki/spaces/GOD/overview) provided by the developer.
