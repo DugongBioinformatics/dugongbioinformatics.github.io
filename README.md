@@ -104,6 +104,8 @@ Access as graphical interfaces available in DugongGUI can be performed through t
    - Local or remote cursor
    - Clipboard copy/paste
    - Clipping or scrolling modes for large remote screens
+ 
+ More information about noVNC can be found on the [project page](https://github.com/novnc/noVNC/wiki).
 
 ***DugongGUI*** also has a set of preinstalled software packages that allow a better use of the operating system, especially:
 
