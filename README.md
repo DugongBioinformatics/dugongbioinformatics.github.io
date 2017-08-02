@@ -470,6 +470,18 @@ In the future, we'll also provide examples of how Dugong can be implemented in C
 
 Likewise, Dugong becomes a great choice for developers who need to autonomously deploy a Docker image with graphical interface in their future workflow or who want to make their graphical tool available in the Dockstore repository. Dugong adapts as a base image for the implementation of different tools.
 
+#### Go-Docker
+
+[Go-Docker](http://www.genouest.org/godocker/): is a batch/cluster computing processing tool using Docker as an execution/isolation system, and can be used with environments with Sun Grid Engine, Torque, among others. However, Go-Docker does not manage to send the commands to the remote nodes, requiring integration with container management tools, such as: Docker Swarm, Apache Mesos, Kubernetes, among others. It acts as an additional layer above these tools on multiple user systems, where users do not have Docker privileges or expertise.
+
+Its implementation depends on solid knowledge in a high performance computing environment using platforms such as Sun Grid Engine, Torque, SLURM, among others. It also requires knowledge about the Docker platform and orchestration systems, such as those already mentioned: Docker Swarm, Apache Mesos, Kubernetes, among others.
+
+After its implementation by a Linux system administrator, the end user can use its resources using containers implemented with DugongGUI and mainly DugongCMD, to compose different pipes and execute parallel processes.
+
+For more information on how to implement a Go-Docker environment, visit the [documentation](https://godocker.atlassian.net/wiki/spaces/GOD/overview) provided by the developer.
+
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Author <a name="Author" /> [[menu]](#menu)
