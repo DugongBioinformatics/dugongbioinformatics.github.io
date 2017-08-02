@@ -8,11 +8,16 @@ Comparison between the main features provided by Dugong and the tools for bioinf
 
 ![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_cloud.png)
 
-As one of the methodologies used initially to provide a complete bioinformatics work environment independent of the host machine, several tools based on virtualization technology have been developed over time.
+As we look at the table, we can see that Dugong provides a number of benefits compared to the tools based on virtualized virtualization technology analyzed.
 
-Some projects such as BioLinux, DNALinux and CloudBioLinux have sought to implement an easy-to-use virtual desktop for the end user, but these projects are no longer available or are not up to date, making it difficult to deploy or use with new users. Projects such as CloVR have made available full workflows in virtual environments such as Virtual Box and Vmware, but have also been discontinued or not updated to meet the current demands of new users.
+Among these benefits it is interesting to point out the lower consumption of computational resources (CPU, Memory, I/O) in contrast to virtualization technologies such as Vmware and Virtual Box, for example. Building on Docker technology, Dugong also enables high scalability and the possibility of easy deployment on high-performance computing platforms.
 
-Although virtualization has been a widely used approach to minimizing replicability and reproducibility issues in bioinformatics, high computational cost, low scalability, and difficulties in jointly deploying high performance computing platforms have proven to be new challenges for the community.
+Other benefits inherent in container technology in contrast to classical virtualization are:
+
+- faster boot time.
+- better distribution of resources.
+- direct access to hardware.
+- less redundancy.
 
 ## Comparison between Dugong and Docker services:
 
