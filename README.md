@@ -444,7 +444,7 @@ In analyzing the comparative table we can see that Dugong is the most complete D
 
 Even with the availability of several tools for the replicability and reproducibility of computational analysis, in addition to a complete graphical user interface independent of the host machine, Dugong presents a final image size very close to the other tools evaluated, justifying its adoption as a working environment.
 
-### Other docker services focused on bioinformatics:
+### Other services focused on bioinformatics:
 
 #### BioShaDock
 
@@ -457,6 +457,12 @@ In particular, it provides:
 - Images of Galaxy Docker that you can use with the specific Galaxy Docker tools, thanks to recent developments through the e-Biogenouest project (see our Toolshed)
 
 **OBS:** We tried to make Dugong available on the Registry to compose your list of tools, but unfortunately attempts to register through your form presented the **Forbidden Error**, even following the tool's documentation.
+
+#### DockStore
+
+[DockStore](https://docker-ui.genouest.org): is a Docker registry which provides a place for users to share tools encapsulated in Docker and described with the Common Workflow Language (CWL) or Workflow Description Language (WDL). This allows scientists to share analytical workflows so that they are machine readable and can be run in a variety of environments. While the Dockstore is focused on serving researchers in biosciences, the combination of Docker + CWL / WDL can be used by anyone to describe the tools and services in their Docker images in a standardized, machine-readable way.
+
+Currently, the DugongGUI (XFCE4) and DugongCMD versions are available in the Registry DockStore. In the future we will provide examples of how Dugong can be implemented in CWL workflows in this environment.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
