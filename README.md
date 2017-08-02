@@ -453,7 +453,7 @@ It is strongly recommended that your system have 8 gigabytes or more of memory t
 
 We provide a comparison of Dugong with the main tools available for analysis of bioinformatics in virtualized platforms and Docker. 
 
-To view this comparison [click here](https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/Compared.md).
+To view this comparison [click here](https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/COMPARED.md).
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
