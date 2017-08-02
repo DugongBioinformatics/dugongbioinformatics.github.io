@@ -4,6 +4,8 @@ Below we compare Dugong with the main tools available for analysis of bioinforma
 
 ## Comparison between Dugong and virtualization services:
 
+Comparison between the main features provided by Dugong and the tools for bioinformatics [BioLinux](http://environmentalomics.org/bio-linux/), [CloudBioLinux](http://cloudbiolinux.org/), [CloVR](http://clovr.org) and [DNALinux](http://www.dnalinux.com).
+
 ![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_cloud.png)
 
 ## Comparison between Dugong and Docker services:
