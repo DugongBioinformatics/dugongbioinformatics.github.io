@@ -440,6 +440,10 @@ Comparison between the main features provided by Dugong and the tools for bioinf
 
 ![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_cloud_2.png)
 
+In analyzing the comparative table we can see that Dugong is the most complete Docker service available so far, focused on implementing a work environment for bioinformatics analysis directed at the end user.
+
+Even with the availability of several tools for the replicability and reproducibility of computational analysis, in addition to a complete graphical user interface independent of the host machine, Dugong presents a final image size very close to the other tools evaluated, justifying its adoption as a working environment.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Author <a name="Author" /> [[menu]](#menu)
