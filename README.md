@@ -462,9 +462,13 @@ In particular, it provides:
 
 [DockStore](https://docker-ui.genouest.org): is a Docker registry which provides a place for users to share tools encapsulated in Docker and described with the Common Workflow Language (CWL) or Workflow Description Language (WDL). This allows scientists to share analytical workflows so that they are machine readable and can be run in a variety of environments. While the Dockstore is focused on serving researchers in biosciences, the combination of Docker + CWL / WDL can be used by anyone to describe the tools and services in their Docker images in a standardized, machine-readable way.
 
-While not aiming to provide an end-user focused working environment, we will soon release DugongGUI (XFCE4) and DugongCMD versions in the Registry DockStore. Implementing Dugong in the DockStore repository will provide a new user option, which can add tools with graphical interfaces to your workflow. With this, the user can perform analysis and visualize graphical data as a step in their piping without the need to use a local workstation.
+Although not intended to provide a comprehensive, end-user focused desktop but a repository with different tools implemented in Docker technology and that can work together after adapting to the CWL environment requirements, we will soon release DugongGUI (XFCE4) and DugongCMD in the Registry DockStore.
 
-In the future, we'll also provide examples of how Dugong can be implemented in CWL workflows in this environment.
+The implementation of Dugong in the DockStore repository will provide a new option for the user of this service, which can add steps in their workflow that depend on tools with graphical interfaces. With this, you can perform analysis and visualize graphical data as an additional step in your pipeline, without the need to use a local workstation.
+
+In the future, we'll also provide examples of how Dugong can be implemented in CWL workflows using the Dockstore.
+
+Likewise, Dugong becomes a great choice for developers who need to autonomously deploy a Docker image with graphical interface in their future workflow or who want to make their graphical tool available in the Dockstore repository. Dugong adapts as a base image for the implementation of different tools.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
