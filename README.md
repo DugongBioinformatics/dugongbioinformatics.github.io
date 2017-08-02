@@ -456,7 +456,7 @@ In particular, it provides:
 - Complex web server structures
 - Images of Galaxy Docker that you can use with the specific Galaxy Docker tools, thanks to recent developments through the e-Biogenouest project (see our Toolshed)
 
-**OBS:** We tried to make Dugong available on the Registry to compose your list of tools, but unfortunately attempts to register through your form presented the Forbidden error, even following the tool's documentation.
+**OBS:** We tried to make Dugong available on the Registry to compose your list of tools, but unfortunately attempts to register through your form presented the **Forbidden Error**, even following the tool's documentation.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
