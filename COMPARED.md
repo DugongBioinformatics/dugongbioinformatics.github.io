@@ -19,6 +19,8 @@ Other benefits inherent in container technology in contrast to classical virtual
 - direct access to hardware.
 - less redundancy.
 
+Another point worth mentioning is that most of the virtualization-based tools that were intended to provide a complete end-user work environment are either discontinued or the project is no longer upgraded. This feature is a fact for the tools: BioLinux, DNALinux, CloVR and the classic version of the CloudBioLinux project.
+
 ## Comparison between Dugong and Docker services:
 
 Comparison between the main features provided by Dugong and the tools for bioinformatics [BioContainer](https://github.com/BioContainers), [GUIdock](https://github.com/WebDataScience/GUIdock) and [AlgoRun](https://github.com/algorun/algorun).
