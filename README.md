@@ -335,7 +335,7 @@ Access to Dugong containers can be done in many ways, with access through the si
 docker exec -it Dugong /bin/bash
 ```
 
-### Access through the SSH protocol <a name="DockerSSH"/> [[menu]](#menu)
+### Access through the SSH protocol <a name="DugongSSH"/> [[menu]](#menu)
 
 Access through the SSH protocol is also available in all versions of Dugong. 
 
@@ -347,7 +347,7 @@ ssh -p 2222 dugong@localhost
 
 The **dugong** user's default password (**dugong**) will be requested at that time. This password can be changed through the command: **passwd dugong**
 
-### Access through the VNC and noVNC <a name="DockerVNC" /> [[menu]](#menu)
+### Access through the VNC and noVNC <a name="DugongVNC" /> [[menu]](#menu)
 
 Two other methods for accessing DugongGUI is through VNC or noVNC. Ports 6901 and 5901 are respectively the VNC and noVNC execution ports. These ports are specified during container creation on the host machine and can be changed as per Docker documentation (**-p 6901:6901 -p 5901:5901**).
 
@@ -363,7 +363,7 @@ A client is required for Dugong access through the VNC protocol. During the test
 
 ![VNC](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-18-33.png)
 
-### Access through a Web Terminal in Node.js <a name="DockerNode" /> [[menu]](#menu)
+### Access through a Web Terminal in Node.js <a name="DugongNode" /> [[menu]](#menu)
 
 For access to DugongCMD the user can use an SSH client of his choice. We also provide access through the tty application, requiring only that the user direct their browser to the address below followed by port 3000. The default DugongCMD user is the ***dugong*** with the ***dugong*** password.
 
