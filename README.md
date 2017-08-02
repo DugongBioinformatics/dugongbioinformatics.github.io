@@ -432,9 +432,9 @@ It is strongly recommended that your system have 8 gigabytes or more of memory t
 
 Below we compare Dugong with the main tools available for analysis of bioinformatics in virtualized platforms and Docker. We briefly describe the function of each tool and present a brief comparison of the characteristics available in contrast to Dugong.
 
-### Comparison between Dugong and virtualization services
+### Comparison between Dugong and virtualization services:
 
-### Comparison between Dugong and Docker services
+### Comparison between Dugong and Docker services:
 
 Comparison between the main features provided by Dugong and the tools for bioinformatics [BioContainer](https://github.com/BioContainers), [GUIdock](https://github.com/WebDataScience/GUIdock) and [AlgoRun](https://github.com/algorun/algorun).
 
@@ -443,6 +443,20 @@ Comparison between the main features provided by Dugong and the tools for bioinf
 In analyzing the comparative table we can see that Dugong is the most complete Docker service available so far, focused on implementing a work environment for bioinformatics analysis directed at the end user.
 
 Even with the availability of several tools for the replicability and reproducibility of computational analysis, in addition to a complete graphical user interface independent of the host machine, Dugong presents a final image size very close to the other tools evaluated, justifying its adoption as a working environment.
+
+### Other docker services focused on bioinformatics:
+
+#### BioShaDock
+
+[BioShaDock](https://docker-ui.genouest.org): is a Docker registry for BioInformatics. In it are hosted Docker images dedicated to a broad spectrum of biological communities represented by the Biogenouest Western France network.
+
+In particular, it provides:
+
+- Command Line Tools
+- Complex web server structures
+- Images of Galaxy Docker that you can use with the specific Galaxy Docker tools, thanks to recent developments through the e-Biogenouest project (see our Toolshed)
+
+**OBS:** We tried to make Dugong available on the Registry to compose your list of tools, but unfortunately attempts to register through your form presented the Forbidden error, even following the tool's documentation.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
