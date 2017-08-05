@@ -55,6 +55,7 @@ Among the software that can be installed in Dugong, and enjoy its graphical inte
      - [CirComPara Pipeline](#CirComPara)
 - [Dugong Virtual Box](#Dugong-Virtual-Box)
     - [Deploy Dugong Virtual Box](#DugongVM)
+- [Comparison between Dugong and other bioinformatics services](#DugongCompare)
 - [Author](#Author)
 - [Contributing](#Contributing)
 - [MIT License](#MIT)
