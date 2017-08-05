@@ -21,7 +21,7 @@ As we look at the table, we can see that Dugong provides a number of benefits co
 
 Among these benefits, it is interesting to point Dugong´s lower consumption of computational resources (CPU, Memory, I/O), in contrast to virtualization technologies, such as Vmware and Virtual Box, for example. Thanks to Docker technology, Dugong also enables high scalability and the possibility of easy deployment on high-performance computing platforms.
 
-Other benefits inherent in container technology, when compared to classical virtualization include faster boot time, better distribution of resources, direct access to hardware and reduced redundancy.
+Other benefits inherent to container technology, when compared to classical virtualization include faster boot time, better distribution of resources, direct access to hardware and reduced redundancy.
 
 Another point worth mentioning is that most of the virtualization-based tools that were intended to provide a complete end-user work environment are no longer upgraded (CloVR and the classic version of CloudBioLinux), or entirely discontinued, (BioLinux and DNALinux).
 
