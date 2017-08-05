@@ -1,68 +1,41 @@
-## Comparison between Dugong and other bioinformatics services <a name="DugongCompare" /> [[menu]](#menu)
+## Comparing Dugong to other bioinformatics services <a name="DugongCompare" /> [[menu]](#menu)
 
-Below we compare Dugong with the main tools available for analysis of bioinformatics in virtualized platforms and Docker. We briefly describe the function of each tool and present a brief comparison of the characteristics available in contrast to Dugong.
+In this page, we compare Dugong with the main tools available for bioinformatics analyses in virtualized platforms and Docker-based systems/services. We shortly describe the function of each tool and present a brief comparison regarding their main characteristics, in contrast to Dugong.
 
-## Comparison between Dugong and virtualization services:
+## Comparing Dugong to virtualization services:
 
-Comparison between the main features provided by Dugong and the tools for bioinformatics [BioLinux](http://environmentalomics.org/bio-linux/), [CloudBioLinux](http://cloudbiolinux.org/), [CloVR](http://clovr.org) and [DNALinux](http://www.dnalinux.com).
+Comparison between the main features provided by Dugong and the bioinformatics  tools [BioLinux](http://environmentalomics.org/bio-linux/), [CloudBioLinux](http://cloudbiolinux.org/), [CloVR](http://clovr.org) and [DNALinux](http://www.dnalinux.com).
 
 ![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_cloud.png)
 
-As we look at the table, we can see that Dugong provides a number of benefits compared to the tools based on virtualized virtualization technology analyzed.
+As we look at the table, we can see that Dugong provides a number of benefits compared to the tools based on virtualization technology analyzed herein.
 
-Among these benefits it is interesting to point out the lower consumption of computational resources (CPU, Memory, I/O) in contrast to virtualization technologies such as Vmware and Virtual Box, for example. Building on Docker technology, Dugong also enables high scalability and the possibility of easy deployment on high-performance computing platforms.
+Among these benefits, it is interesting to point Dugong´s lower consumption of computational resources (CPU, Memory, I/O), in contrast to virtualization technologies, such as Vmware and Virtual Box, for example. Thanks to Docker technology, Dugong also enables high scalability and the possibility of easy deployment on high-performance computing platforms.
 
-Other benefits inherent in container technology in contrast to classical virtualization are:
+Other benefits inherent in container technology, when compared to classical virtualization include faster boot time, better distribution of resources, direct access to hardware and reduced redundancy.
 
-- faster boot time.
-- better distribution of resources.
-- direct access to hardware.
-- less redundancy.
+Another point worth mentioning is that most of the virtualization-based tools that were intended to provide a complete end-user work environment are no longer upgraded (CloVR and the classic version of CloudBioLinux), or entirely discontinued, (BioLinux and DNALinux).
 
-Another point worth mentioning is that most of the virtualization-based tools that were intended to provide a complete end-user work environment are either discontinued or the project is no longer upgraded. This feature is a fact for the tools: BioLinux, DNALinux, CloVR and the classic version of the CloudBioLinux project.
+## Comparing Dugong to Docker-based systems:
 
-## Comparison between Dugong and Docker services:
-
-Comparison between the main features provided by Dugong and the tools for bioinformatics [BioContainer](https://github.com/BioContainers), [GUIdock](https://github.com/WebDataScience/GUIdock) and [AlgoRun](https://github.com/algorun/algorun).
+The major characteristics of Dugong, in comparison with other Docker-based bioinformatics systems ([AlgoRun](https://github.com/algorun/algorun), [GUIdock](https://github.com/WebDataScience/GUIdock) and [BioContainer](https://github.com/BioContainers))  can be viewed in the following table.
 
 ![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/comparative_docker.png)
 
-In analyzing the comparative table we can see that Dugong is the most complete Docker service available so far, focused on implementing a work environment for bioinformatics analysis directed at the end user.
+AlgoRun consists of a Docker-based packaging system that provides an interesting way to connect bioinformatics-related Docker images to a user-friendly graphic interface. However, integration of different tools to their specific graphic interfaces is still a time-consuming process and few applications have been fully integrated into the AlgoRun template, limiting their use in a larger variety of bioinformatics analyses.
 
-Even with the availability of several tools for the replicability and reproducibility of computational analysis, in addition to a complete graphical user interface independent of the host machine, Dugong presents a final image size very close to the other tools evaluated, justifying its adoption as a working environment.
+In a similar way, GUIdock is a Docker Package containing the entire computational environment to run bioinformatics applications with a graphical user interface. However, the software is presented mostly as a proof of concept, focusing on Cytoscape tools, mostly associated with the analysis of biological networks. Thus, GUIdock does not support a whole range of applications for bioinformatics analyses, such as OMICS-related tools, for example.
+
+Biocontainers provides Docker images integrated with the BioConda repository, which carries more than 2500 bioinformatics software in a standardized environment, with special emphasis on OMICS-related analytical tools and represents a major contribution to ensure data analyses through Docker-based systems. Nonetheless, Biocontainers operates exclusively through the Linux command line, hampering its use amongst less experienced users. Although future development of BioContainers may lead to its integration with the Galaxy graphical interface through [Galaxy Interactive Environments](https://galaxyproject.org/admin/gies/) (GIEs), GIE deployment is not a trivial operation, since they have complex interactions with numerous services. Moreover, implementation of the [Galaxy instance](https://galaxyproject.org/admin/get-galaxy/) displays large requirements for memory and disk space and [additional Galaxy tools](https://galaxyproject.org/admin/get-galaxy/#install-tools) have different requirements in computer memory, I/O speed, disk space, network bandwidth, density of computing cores, and parallel environment configurations, among other issues.
+
+Dugong, on the other hand, is the most comprehensive Docker system developed so far, providing more than 3500 software available from three major open-source bioinformatics repositories: [BioConda](http://bioconda.github.io/), [LinuxBrew](http://linuxbrew.sh/) and BioLinux Repository. Software installation and management can be performed with the aid of an XFCE4 Graphic User Interface (GUI), which facilitates user interaction with different computing ecosystems, by enabling execution of a complete graphic work environment in personal computers, high performance computing systems (HPC), virtual private servers (VPS) and cloud computing environments. Dugong also incorporates the popular Jupyter Notebook, which allows software execution through pre-configured protocols (without the need for command typing) and provides a standardized mechanism to save and exchange protocols and results amongst users, which shall greatly contribute to ensure replicability and reproducibility of data analyses across laboratories.
 
 ## Other services focused on bioinformatics:
 
-### BioShaDock
+### BioShaDock and DockStore
 
-[BioShaDock](https://docker-ui.genouest.org): is a Docker registry for BioInformatics. In it are hosted Docker images dedicated to a broad spectrum of biological communities represented by the Biogenouest Western France network.
-
-In particular, it provides:
-
-- Command Line Tools
-- Complex web server structures
-- Images of Galaxy Docker that you can use with the specific Galaxy Docker tools, thanks to recent developments through the e-Biogenouest project (see our Toolshed)
-
-**OBS:** We tried to make Dugong available on the Registry to compose your list of tools, but unfortunately attempts to register through your form presented the **Forbidden Error**, even following the tool's documentation.
-
-### DockStore
-
-[DockStore](https://docker-ui.genouest.org): is a Docker registry which provides a place for users to share tools encapsulated in Docker and described with the Common Workflow Language (CWL) or Workflow Description Language (WDL). This allows scientists to share analytical workflows so that they are machine readable and can be run in a variety of environments. While the Dockstore is focused on serving researchers in biosciences, the combination of Docker + CWL / WDL can be used by anyone to describe the tools and services in their Docker images in a standardized, machine-readable way.
-
-Although not intended to provide a comprehensive, end-user focused desktop but a repository with different tools implemented in Docker technology and that can work together after adapting to the CWL environment requirements, we will soon release DugongGUI (XFCE4) and DugongCMD in the Registry DockStore.
-
-The implementation of Dugong in the DockStore repository will provide a new option for the user of this service, which can add steps in their workflow that depend on tools with graphical interfaces. With this, you can perform analysis and visualize graphical data as an additional step in your pipeline, without the need to use a local workstation.
-
-In the future, we'll also provide examples of how Dugong can be implemented in CWL workflows using the Dockstore.
-
-Likewise, Dugong becomes a great choice for developers who need to autonomously deploy a Docker image with graphical interface in their future workflow or who want to make their graphical tool available in the Dockstore repository. Dugong adapts as a base image for the implementation of different tools.
+[BioShaDock](https://docker-ui.genouest.org) and [DockStore](https://docker-ui.genouest.org): are Docker registries for bioinformatics tools. They contain Docker images dedicated to a broad spectrum of biological analyses. BioShaDock is a highly comprehensive repository, carrying command line tools, complex web server frameworks and Galaxy Docker images. Dockstore is focused on providing researchers different Docker-based bioinformatics software, which can be integrated into more complex processes through pipeline construction tools, such as Common Workflow Language (CWL) or Workflow Description Language (WDL). Dugong (and all the pre-configured software that it carries) can be integrated into Dockstore pipelines and used to visualize graphical results from different types of analyses.
 
 ### Go-Docker
 
-[Go-Docker](http://www.genouest.org/godocker/): is a batch/cluster computing processing tool using Docker as an execution/isolation system, and can be used with environments with Sun Grid Engine, Torque, among others. However, Go-Docker does not manage to send the commands to the remote nodes, requiring integration with container management tools, such as: Docker Swarm, Apache Mesos, Kubernetes, among others. It acts as an additional layer above these tools on multiple user systems, where users do not have Docker privileges or expertise.
-
-Its implementation depends on solid knowledge in a high performance computing environment using platforms such as Sun Grid Engine, Torque, SLURM, among others. It also requires knowledge about the Docker platform and orchestration systems, such as those already mentioned: Docker Swarm, Apache Mesos, Kubernetes, among others.
-
-After the implementation by a Linux system administrator, the end user can execute containers with Dugong, mainly DugongCMD, to compose different pipelines and take advantage of the task scheduling system provided by Go-Docker.
-
-For more information on how to implement a Go-Docker environment, visit the [documentation](https://godocker.atlassian.net/wiki/spaces/GOD/overview) provided by the developer.
+[Go-Docker](http://www.genouest.org/godocker/): is a batch/cluster computing processing tool using Docker as an execution/isolation system, and can be used with environments based on Sun Grid Engine and Torque, among others. It acts as an additional layer above these tools on multiple user systems, where users do not have Docker privileges or expertise. However, Go-Docker does not send commands to remote nodes and requires integration with container management tools / orchestration systems, such as: Docker Swarm, Apache Mesos and Kubernetes, among others. Thus, its implementation depends on solid knowledge regarding high performance computing platforms. Nonetheless, after Go-Docker implementation by a Linux system administrator, users can execute Dugong containers (using mainly DugongCMD) to compose different pipelines and take advantage of the task scheduling system provided by Go-Docker. For more information on how to implement a Go-Docker environment, visit the [documentation](https://godocker.atlassian.net/wiki/spaces/GOD/overview) provided by the developer.
