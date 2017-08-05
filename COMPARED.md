@@ -4,12 +4,14 @@
     - [Comparing Dugong to virtualization services](#DugongCompare)
     - [Comparing Dugong to Docker-based systems](#DugongCompare)
     - [Other services focused on bioinformatics](#DugongCompare)
+    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Comparing Dugong to other bioinformatics services <a name="DugongCompare" /> [[menu]](#menu)
 
 In this page, we compare Dugong with the main tools available for bioinformatics analyses in virtualized platforms and Docker-based systems/services. We shortly describe the function of each tool and present a brief comparison regarding their main characteristics, in contrast to Dugong.
 
-## Comparing Dugong to virtualization services:
+## Comparing Dugong to virtualization services:  <a name="DugongCompare" /> [[menu]](#menu)
 
 Comparison between the main features provided by Dugong and the bioinformatics  tools [BioLinux](http://environmentalomics.org/bio-linux/), [CloudBioLinux](http://cloudbiolinux.org/), [CloVR](http://clovr.org) and [DNALinux](http://www.dnalinux.com).
 
@@ -23,7 +25,7 @@ Other benefits inherent in container technology, when compared to classical virt
 
 Another point worth mentioning is that most of the virtualization-based tools that were intended to provide a complete end-user work environment are no longer upgraded (CloVR and the classic version of CloudBioLinux), or entirely discontinued, (BioLinux and DNALinux).
 
-## Comparing Dugong to Docker-based systems:
+## Comparing Dugong to Docker-based systems:  <a name="DugongCompare" /> [[menu]](#menu)
 
 The major characteristics of Dugong, in comparison with other Docker-based bioinformatics systems ([AlgoRun](https://github.com/algorun/algorun), [GUIdock](https://github.com/WebDataScience/GUIdock) and [BioContainer](https://github.com/BioContainers))  can be viewed in the following table.
 
@@ -37,7 +39,7 @@ Biocontainers provides Docker images integrated with the BioConda repository, wh
 
 Dugong, on the other hand, is the most comprehensive Docker system developed so far, providing more than 3500 software available from three major open-source bioinformatics repositories: [BioConda](http://bioconda.github.io/), [LinuxBrew](http://linuxbrew.sh/) and BioLinux Repository. Software installation and management can be performed with the aid of an XFCE4 Graphic User Interface (GUI), which facilitates user interaction with different computing ecosystems, by enabling execution of a complete graphic work environment in personal computers, high performance computing systems (HPC), virtual private servers (VPS) and cloud computing environments. Dugong also incorporates the popular Jupyter Notebook, which allows software execution through pre-configured protocols (without the need for command typing) and provides a standardized mechanism to save and exchange protocols and results amongst users, which shall greatly contribute to ensure replicability and reproducibility of data analyses across laboratories.
 
-## Other services focused on bioinformatics:
+## Other services focused on bioinformatics:  <a name="DugongCompare" /> [[menu]](#menu)
 
 ### BioShaDock and DockStore
 
