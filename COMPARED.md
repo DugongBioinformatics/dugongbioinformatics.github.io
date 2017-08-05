@@ -1,3 +1,10 @@
+## MENU <a name="menu" />
+
+- [Comparison between Dugong and other bioinformatics services](#DugongCompare)
+    - [Comparing Dugong to virtualization services](#DugongCompare)
+    - [Comparing Dugong to Docker-based systems](#DugongCompare)
+    - [Other services focused on bioinformatics](#DugongCompare)
+
 ## Comparing Dugong to other bioinformatics services <a name="DugongCompare" /> [[menu]](#menu)
 
 In this page, we compare Dugong with the main tools available for bioinformatics analyses in virtualized platforms and Docker-based systems/services. We shortly describe the function of each tool and present a brief comparison regarding their main characteristics, in contrast to Dugong.
