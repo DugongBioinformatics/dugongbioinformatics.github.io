@@ -247,6 +247,40 @@ Below is a preview of the [Jupyter Notebook](http://jupyter.org/) interface:
 
 ![Jupyter Notebook](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2002-22-16.png)
 
+To access Jupyter Notebook, first deploy one of the versions of Dugong, according to our [tutorials](#Deploy).
+
+After deploy, enter the following command on the terminal of the host machine:
+
+```
+docker logs DugongGUI
+```
+or
+
+```
+docker logs DugongCMD
+```
+A message, similar to the one below, will be displayed:
+
+```
+[...]
+[I 01:06:50.036 NotebookApp] [nb_conda_kernels] enabled, 2 kernels found
+[W 01:06:50.258 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 01:06:50.359 NotebookApp] [nb_conda] enabled
+[I 01:06:50.365 NotebookApp] Serving notebooks from local directory: /headless/data
+[I 01:06:50.365 NotebookApp] 0 active kernels 
+[I 01:06:50.365 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/?token=60a698e3d55cd77ffb61eb138e16fd874c11ab994199e859
+[I 01:06:50.365 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 01:06:50.366 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=60a698e3d55cd77ffb61eb138e16fd874c11ab994199e859
+```
+
+Copy the Jupyter Notebook access address along with the token. Paste the address into the browser.
+
+NOTE: If the access is not local, enter the IP / Hostname of the machine with the Jupyter Notebook next to the 8888 access port (Ex: http: // IP: 8888). In the new window, in the "Password or token" field, enter the previously obtained token.
+
 For more details on the Jupyter Notebook, visit its [documentation](http://jupyter-notebook.readthedocs.io/en/latest/).
 
 ## Script and ScriptReplay Commands <a name="ScriptReplay"/> [[menu]](#menu)
