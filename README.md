@@ -38,6 +38,7 @@ Among the software that can be installed in Dugong, and enjoy its graphical inte
     - [DEB Repository](#DEB)
 - [Reproducibility and Replicability](#Reproducibility)
     - [Jupyter Notebook](#Jupyter)
+    - [Getting the token and accessing the Jupyter Notebook](#AccessJupyter)
     - [Script and ScriptReplay Commands](#ScriptReplay)
 - [Deploy Dugong Image](#Deploy)
     - [Deploy DugongGUI](#DeployDugongGUI)
@@ -246,6 +247,8 @@ Below is a preview of the [Jupyter Notebook](http://jupyter.org/) interface:
 [Dugong](https://hub.docker.com/r/dugong/dugong) provided the [Jupyter Notebook](http://jupyter.org/) with [Python 2.7.1](https://www.python.org/), the [IPython2 Kernel](http://ipython.readthedocs.io/en/stable/index.html) and the [Notebook Conda Kernel](https://docs.continuum.io/anaconda/user-guide/tasks/use-jupyter-notebook-extensions), this extension allows administration of the entire Conda environment and a package installation through the Jupyter interface. Below is a preview of the [Notebook Conda Kernel](https://docs.continuum.io/anaconda/user-guide/tasks/use-jupyter-notebook-extensions) interface:
 
 ![Jupyter Notebook](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2002-22-16.png)
+
+### Getting the token and accessing the Jupyter Notebook <a name="AccessJupyter" /> [[menu]](#menu)
 
 To access Jupyter Notebook, first deploy one of the versions of Dugong, according to our [tutorials](#Deploy).
 
