@@ -453,7 +453,7 @@ Dugong can be expanded or adapted to the most diverse needs in a research or tea
 
 [![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-41-23.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
 
-See more: [DugongGUI CirComPara](https://github.com/DugongBioinformatics/DugongRepository/tree/master/GUI/CirComPara/XFCE4)
+For more information on adapting CirComPara to Dugong and accessing analysis results using Dugong and CirComPara in different computing environments, go to: [DugongGUI CirComPara](https://github.com/DugongBioinformatics/DugongRepository/tree/master/GUI/CirComPara/XFCE4)
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
