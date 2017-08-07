@@ -54,6 +54,7 @@ Among the software that can be installed in Dugong, and enjoy its graphical inte
 - [Extending or adapting the Dugong image](#Extending)
     - [Example of adapted tools, replicability and reproducibility in Dugong](#Example)
      - [CirComPara Pipeline](#CirComPara)
+          -[Simulating reproducibility and replicability in alternative OS](#CirComPara)
 - [Dugong Virtual Box](#Dugong-Virtual-Box)
     - [Deploy Dugong Virtual Box](#DugongVM)
 - [Comparison between Dugong and other bioinformatics services](#DugongCompare)
