@@ -34,9 +34,10 @@ To test the operation of Dugong and demonstrate the ease of use and the possibil
 
 dply.co servers are hosted in the DigitalOcean cloud and have the following specifications:
 
-1 CPU
-512MB RAM
-20GB Disk
+- 1 CPU
+- 512MB RAM
+- 20GB Disk
+
 We currently offer the following operating systems: CentOS 6, CentOS 7, Debian 7, Debian 8, Fedora 24, Fedora 25, Ubuntu 14.04, Ubuntu 16.04.
 
 Test the Dugong on a machine with Ubuntu 16.04 by clicking the button:
