@@ -310,7 +310,7 @@ Two steps are required to start a container containing [Dugong](https://hub.dock
 
 ```
 docker pull dugong/dugong
-docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name Dugong -h Dugong -v $HOME/dugong/:/data/ \
+docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name Dugong -h Dugong -v $HOME/dugong/:$HOME/data/ \
 --privileged dugong/dugong
 ```
 
@@ -329,15 +329,15 @@ To change the installed version simply add one of the tags in the deploy command
 Install DugongGUI Xfce4:
 
 ```
-docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI -v $HOME/dugongxfce/:/data/ \
---privileged dugong/dugong:xfce4
+docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI \
+  -v $HOME/dugongxfce/:$HOME/data/ --privileged dugong/dugong:xfce4
 ```
 
 Install DugongGUI iceWM:
 
 ```
-docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI -v $HOME/dugongicewm/:/data/ \
---privileged dugong/dugong:icewm
+docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI -h DugongGUI \
+-v $HOME/dugongicewm/:$HOME/data/ --privileged dugong/dugong:icewm
 ```
 
 ### EXAMPLE: Video installation DugongGUI:
@@ -355,8 +355,8 @@ docker run -d -p 5901:5901 -p 6901:6901 -p 8888:8888 -p 2222:22 --name DugongGUI
 Install DugongCMD:
 
 ```
-docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD -v $HOME/dugongcmd/:/data/ \
---privileged dugong/dugong:cmd
+docker run -d -p 3000:3000 -p 8888:8888 -p 2222:22 --name DugongCMD -h DugongCMD \
+  -v $HOME/dugongcmd/:$HOME/data/ --privileged dugong/dugong:cmd
 ```
 
 ### EXAMPLE: Video installation DugongCMD:
