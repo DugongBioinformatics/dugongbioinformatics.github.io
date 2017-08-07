@@ -26,7 +26,7 @@ Among the software that can be installed in Dugong, and enjoy its graphical inte
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Dugong Demo
+## Test Dugong NOW!
 
 To test the operation of Dugong and demonstrate the ease of use and the possibility of using the service in different operating systems and platforms we provide some installation templates on dply.co's servers.
 
@@ -45,6 +45,7 @@ Test the Dugong on a machine with Ubuntu 16.04 by clicking the button:
 
 Learn more about Dply and other ways to test Dugong on other operating systems by [clicking here](https://github.com/DugongBioinformatics/Dply/blob/master/README.md).
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## MENU <a name="menu" />
 
