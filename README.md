@@ -53,6 +53,7 @@ Learn more about Dply and other ways to test Dugong on other operating systems b
 - [Dugong flavours](#Dugong-flavours)
   - [DugongGUI Version](#DugongGUI)
   - [DugongCMD Version](#DugongCMD)
+  - [DugongCLEAN Version](#DugongCLEAN)
 - [Installing Bioinformatics Software](#Bioinformatics-Software)
     - [Conda and BioConda](#BioConda)
     - [Anaconda Navigator](#Anaconda)
@@ -160,6 +161,12 @@ This is the preinstalled software suite that enables better use of DugongCMD:
 Access to DugongCMD can be done through the following option:
 
 - [tty.js](https://github.com/chjj/tty.js/): a terminal in your browser using node.js and socket.io. Based on Fabrice Bellard's vt100 for jslinux.
+
+### DugongCLEAN <a name="DugongCLEAN" /> [[menu]](#menu)
+
+Version of DugongGUI and DugongCMD without the Jupyter Notebook and Anaconda Navigator. It has a reduced size compared to other versions.
+
+It has all the other tools available on Dugong.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
