@@ -275,7 +275,7 @@ Main features of the web application:
 
 Below is a preview of the [Jupyter Notebook](http://jupyter.org/) interface:
 
-![Jupyter Notebook](https://docs.microsoft.com/pt-br/azure/virtual-machines/linux/media/jupyter-notebook/ipy-notebook-spectral.png)
+![Jupyter Notebook](https://docs.treasuredata.com/images/jupyter-1.png)
 
 [Dugong](https://hub.docker.com/r/dugong/dugong) provided the [Jupyter Notebook](http://jupyter.org/) with [Python 2.7.1](https://www.python.org/), the [IPython2 Kernel](http://ipython.readthedocs.io/en/stable/index.html) and the [Notebook Conda Kernel](https://docs.continuum.io/anaconda/user-guide/tasks/use-jupyter-notebook-extensions), this extension allows administration of the entire Conda environment and a package installation through the Jupyter interface. Below is a preview of the [Notebook Conda Kernel](https://docs.continuum.io/anaconda/user-guide/tasks/use-jupyter-notebook-extensions) interface:
 
