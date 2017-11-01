@@ -335,9 +335,9 @@ Channel video: https://www.linuxhelp.com/script-scriptreplay-commands-linux-exam
 
 ## Deploy Dugong Image <a name="Deploy" /> [[menu]](#menu)
 
-The [Dugong](https://hub.docker.com/r/dugong/dugong) project provides a public cloud called the  for sharing the developed containers. This cloud allows access to the application in a centralized and simple way, that is, it is possible to obtain a complete Dugong environment with command lines for its implementation.
+[Docker](https://www.docker.com/) project provides a public cloud called the  for sharing the developed containers. This cloud allows access to the application in a centralized and simple way, that is, it is possible to obtain a complete Dugong environment with command lines for its implementation.
 
-To start a container, the user must have Docker installed on his operating system, according to the [tutorials available in the project documentation](https://docs.docker.com/engine/installation/#server). The [Dugong image](https://github.com/fabianomenegidio/dugong-bioinformatics) is available in the [Docker Hub](https://hub.docker.com) and its use is the recommended method of installation.
+To start a container, the user must have Docker installed on his operating system, according to the [tutorials available in the project documentation](https://docs.docker.com/engine/installation/). The [Dugong image](https://github.com/fabianomenegidio/dugong-bioinformatics) is available in the [Docker Hub](https://hub.docker.com) and its use is the recommended method of installation.
 
 Two steps are required to start a container containing [Dugong](https://hub.docker.com/r/dugong/dugong). In the first step, the [Dugong image](https://github.com/fabianomenegidio/dugong-bioinformatics)  is downloaded from the [Docker Hub](https://hub.docker.com) servers to the host, and in the second, a container is created on the host machine with the default [Dugong](https://hub.docker.com/r/dugong/dugong) installation. If the host machine is a Linux, the following commands must be performed in the terminal:
 
