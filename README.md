@@ -88,6 +88,7 @@ Learn more about Dply and other ways to test Dugong on other operating systems b
     - [Comparing Dugong to Docker-based systems](#DugongCompare)
     - [Other services focused on bioinformatics](#DugongCompare)
 - [Author](#Author)
+- [How to cite](#Cite)
 - [Contributing](#Contributing)
 - [MIT License](#MIT)
 - [Learn More](#Learn-More)
@@ -535,7 +536,7 @@ To view this comparison [click here](https://github.com/DugongBioinformatics/dug
 
 Current development is led by Fabiano Menegidio.
 
-## How to cite
+## How to cite <a name="Cite" /> [[menu]](#menu)
 
 Menegidio, F.B. et al. (2018). Dugong: a Docker image, based on Ubuntu Linux, focused on reproducibility and replicability for bioinformatics analyses. Bioinformatics 34(3):514-515. doi: 10.1093/bioinformatics/btx554.
 
