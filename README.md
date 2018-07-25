@@ -535,6 +535,12 @@ To view this comparison [click here](https://github.com/DugongBioinformatics/dug
 
 Current development is led by Fabiano Menegidio.
 
+## How to cite
+
+Menegidio, F.B. et al. (2018). Dugong: a Docker image, based on Ubuntu Linux, focused on reproducibility and replicability for bioinformatics analyses. Bioinformatics 34(3):514-515. doi: 10.1093/bioinformatics/btx554.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Contributing <a name="Contributing" /> [[menu]](#menu)
 
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
