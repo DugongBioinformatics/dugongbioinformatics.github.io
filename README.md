@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/88288867.svg)](https://zenodo.org/badge/latestdoi/88288867)
 
-![Dugong](https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png)
+![Dugong](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/gh-pages/.misc/dugongo.png)
 
 # Dugong - Scientific Linux Container
 
